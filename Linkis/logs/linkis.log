@@ -1,0 +1,626 @@
+2020-04-02 14:01:20.797 [INFO ] [main                                    ] o.s.c.a.AnnotationConfigApplicationContext (590) [prepareRefresh] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@7966baa7: startup date [Thu Apr 02 14:01:20 CST 2020]; root of context hierarchy
+2020-04-02 14:01:23.452 [INFO ] [main                                    ] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor (154) [<init>] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-04-02 14:01:23.792 [INFO ] [main                                    ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker (328) [postProcessAfterInitialization] - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$abd29ff1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-02 14:01:26.858 [INFO ] [main                                    ] o.s.c.c.c.ConfigServicePropertySourceLocator (205) [getRemoteEnvironment] - Fetching config from server at : http://localhost:8888
+2020-04-02 14:01:28.267 [INFO ] [main                                    ] o.s.c.c.c.ConfigServicePropertySourceLocator (227) [getRemoteEnvironment] - Connect Timeout Exception on Url - http://localhost:8888. Will be trying the next url if available
+2020-04-02 14:01:28.267 [WARN ] [main                                    ] o.s.c.c.c.ConfigServicePropertySourceLocator (140) [locate] - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/DataWorkCloud-Gateway/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2020-04-02 14:01:28.273 [INFO ] [main                                    ] c.w.w.l.DataWorkCloudApplication (659) [logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+2020-04-02 14:01:28.319 [INFO ] [main                                    ] c.w.w.l.DataWorkCloudApplication (84) [onApplicationEvent] - add config from config server...
+2020-04-02 14:01:28.319 [INFO ] [main                                    ] c.w.w.l.DataWorkCloudApplication (89) [onApplicationEvent] - initialize DataWorkCloud spring application...
+2020-04-02 14:01:37.347 [INFO ] [main                                    ] o.s.b.w.r.c.AnnotationConfigReactiveWebServerApplicationContext (590) [prepareRefresh] - Refreshing org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext@3ff57625: startup date [Thu Apr 02 14:01:37 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@7966baa7
+2020-04-02 14:01:49.602 [INFO ] [main                                    ] o.s.c.c.s.GenericScope (294) [setSerializationId] - BeanFactory id=8ae8856b-7987-35e2-8f5d-68e08192c5dc
+2020-04-02 14:01:49.637 [INFO ] [main                                    ] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor (154) [<init>] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-04-02 14:01:50.424 [INFO ] [main                                    ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker (328) [postProcessAfterInitialization] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$abd29ff1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-02 14:01:51.448 [INFO ] [main                                    ] o.s.w.r.h.SimpleUrlHandlerMapping (211) [registerHandler] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.reactive.resource.ResourceWebHandler]
+2020-04-02 14:01:51.448 [INFO ] [main                                    ] o.s.w.r.h.SimpleUrlHandlerMapping (211) [registerHandler] - Mapped URL path [/**] onto handler of type [class org.springframework.web.reactive.resource.ResourceWebHandler]
+2020-04-02 14:01:56.283 [INFO ] [main                                    ] o.s.c.g.r.RouteDefinitionRouteLocator (102) [lambda$initFactories$1] - Loaded RoutePredicateFactory [After]
+2020-04-02 14:01:56.285 [INFO ] [main                                    ] o.s.c.g.r.RouteDefinitionRouteLocator (102) [lambda$initFactories$1] - Loaded RoutePredicateFactory [Before]
+2020-04-02 14:01:56.286 [INFO ] [main                                    ] o.s.c.g.r.RouteDefinitionRouteLocator (102) [lambda$initFactories$1] - Loaded RoutePredicateFactory [Between]
+2020-04-02 14:01:56.287 [INFO ] [main                                    ] o.s.c.g.r.RouteDefinitionRouteLocator (102) [lambda$initFactories$1] - Loaded RoutePredicateFactory [Cookie]
+2020-04-02 14:01:56.287 [INFO ] [main                                    ] o.s.c.g.r.RouteDefinitionRouteLocator (102) [lambda$initFactories$1] - Loaded RoutePredicateFactory [Header]
+2020-04-02 14:01:56.289 [INFO ] [main                                    ] o.s.c.g.r.RouteDefinitionRouteLocator (102) [lambda$initFactories$1] - Loaded RoutePredicateFactory [Host]
+2020-04-02 14:01:56.291 [INFO ] [main                                    ] o.s.c.g.r.RouteDefinitionRouteLocator (102) [lambda$initFactories$1] - Loaded RoutePredicateFactory [Method]
+2020-04-02 14:01:56.292 [INFO ] [main                                    ] o.s.c.g.r.RouteDefinitionRouteLocator (102) [lambda$initFactories$1] - Loaded RoutePredicateFactory [Path]
+2020-04-02 14:01:56.294 [INFO ] [main                                    ] o.s.c.g.r.RouteDefinitionRouteLocator (102) [lambda$initFactories$1] - Loaded RoutePredicateFactory [Query]
+2020-04-02 14:01:56.298 [INFO ] [main                                    ] o.s.c.g.r.RouteDefinitionRouteLocator (102) [lambda$initFactories$1] - Loaded RoutePredicateFactory [ReadBodyPredicateFactory]
+2020-04-02 14:01:56.299 [INFO ] [main                                    ] o.s.c.g.r.RouteDefinitionRouteLocator (102) [lambda$initFactories$1] - Loaded RoutePredicateFactory [RemoteAddr]
+2020-04-02 14:01:56.300 [INFO ] [main                                    ] o.s.c.g.r.RouteDefinitionRouteLocator (102) [lambda$initFactories$1] - Loaded RoutePredicateFactory [Weight]
+2020-04-02 14:01:58.196 [INFO ] [main                                    ] o.s.c.c.u.InetUtils (170) [convertAddress] - Cannot determine local hostname
+2020-04-02 14:02:00.759 [INFO ] [main                                    ] o.s.c.c.u.InetUtils (170) [convertAddress] - Cannot determine local hostname
+2020-04-02 14:02:01.786 [WARN ] [main                                    ] c.n.c.s.URLConfigurationSource (121) [<init>] - No URLs will be polled as dynamic configuration sources.
+2020-04-02 14:02:01.787 [INFO ] [main                                    ] c.n.c.s.URLConfigurationSource (122) [<init>] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-02 14:02:01.833 [INFO ] [main                                    ] c.n.c.DynamicPropertyFactory (281) [getInstance] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@5e5a8718
+2020-04-02 14:02:02.272 [INFO ] [main                                    ] o.s.b.a.e.w.EndpointLinksResolver (59) [<init>] - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-04-02 14:02:02.389 [INFO ] [main                                    ] o.s.b.a.e.w.r.WebFluxEndpointHandlerMapping (468) [register] - Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public org.reactivestreams.Publisher<org.springframework.http.ResponseEntity<java.lang.Object>> org.springframework.boot.actuate.endpoint.web.reactive.AbstractWebFluxEndpointHandlerMapping$ReadOperationHandler.handle(org.springframework.web.server.ServerWebExchange)
+2020-04-02 14:02:02.393 [INFO ] [main                                    ] o.s.b.a.e.w.r.WebFluxEndpointHandlerMapping (468) [register] - Mapped "{[/actuator/refresh],methods=[POST],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public org.reactivestreams.Publisher<org.springframework.http.ResponseEntity<java.lang.Object>> org.springframework.boot.actuate.endpoint.web.reactive.AbstractWebFluxEndpointHandlerMapping$WriteOperationHandler.handle(org.springframework.web.server.ServerWebExchange,java.util.Map<java.lang.String, java.lang.String>)
+2020-04-02 14:02:02.399 [INFO ] [main                                    ] o.s.b.a.e.w.r.WebFluxEndpointHandlerMapping (468) [register] - Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.reactive.WebFluxEndpointHandlerMapping.links(org.springframework.web.server.ServerWebExchange)
+2020-04-02 14:02:02.679 [INFO ] [main                                    ] o.s.w.r.r.m.a.ControllerMethodResolver (209) [initControllerAdviceCaches] - Looking for @ControllerAdvice: org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext@3ff57625: startup date [Thu Apr 02 14:01:37 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@7966baa7
+2020-04-02 14:02:03.206 [INFO ] [main                                    ] o.s.a.f.CglibAopProxy (265) [doValidateClass] - Final method [protected final void org.springframework.boot.web.servlet.support.SpringBootServletInitializer.setRegisterErrorPageFilter(boolean)] cannot get proxied via CGLIB: Calls to this method will NOT be routed to the target instance and might lead to NPEs against uninitialized fields in the proxy instance.
+2020-04-02 14:02:03.826 [INFO ] [main                                    ] c.w.w.l.r.RPCReceiveRestful (42) [info] - init all receiverChoosers in spring beans, list => List(com.webank.wedatasphere.linkis.rpc.CommonReceiverChooser@3ea75b05)
+2020-04-02 14:02:03.865 [INFO ] [main                                    ] c.w.w.l.r.RPCReceiveRestful (42) [info] - init all receiverSenderBuilders in spring beans, list => List(com.webank.wedatasphere.linkis.rpc.CommonReceiverSenderBuilder@5bb7a59)
+2020-04-02 14:02:04.104 [INFO ] [main                                    ] c.w.w.l.r.RPCReceiveRestful (42) [info] - init RPCReceiverListenerBus with queueSize 1000 and consumeThreadSize 10.
+2020-04-02 14:02:04.124 [INFO ] [main                                    ] c.w.w.l.r.AsynRPCMessageBus (42) [info] - RPC-Receiver-Asyn-Thread-ListenerBus add a new listener => class com.webank.wedatasphere.linkis.rpc.RPCReceiveRestful$$anon$1
+2020-04-02 14:02:04.306 [INFO ] [main                                    ] o.s.c.n.e.InstanceInfoFactory (71) [create] - Setting initial instance status as: STARTING
+2020-04-02 14:02:04.652 [INFO ] [main                                    ] c.n.d.DiscoveryClient (349) [<init>] - Initializing Eureka in region us-east-1
+2020-04-02 14:02:04.826 [INFO ] [main                                    ] c.n.d.p.DiscoveryJerseyProvider (70) [<init>] - Using JSON encoding codec LegacyJacksonJson
+2020-04-02 14:02:04.827 [INFO ] [main                                    ] c.n.d.p.DiscoveryJerseyProvider (71) [<init>] - Using JSON decoding codec LegacyJacksonJson
+2020-04-02 14:02:05.220 [INFO ] [main                                    ] c.n.d.p.DiscoveryJerseyProvider (80) [<init>] - Using XML encoding codec XStreamXml
+2020-04-02 14:02:05.220 [INFO ] [main                                    ] c.n.d.p.DiscoveryJerseyProvider (81) [<init>] - Using XML decoding codec XStreamXml
+2020-04-02 14:02:06.876 [INFO ] [main                                    ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2020-04-02 14:02:07.342 [INFO ] [main                                    ] c.n.d.DiscoveryClient (958) [fetchRegistry] - Disable delta property : false
+2020-04-02 14:02:07.343 [INFO ] [main                                    ] c.n.d.DiscoveryClient (959) [fetchRegistry] - Single vip registry refresh property : null
+2020-04-02 14:02:07.343 [INFO ] [main                                    ] c.n.d.DiscoveryClient (960) [fetchRegistry] - Force full registry fetch : false
+2020-04-02 14:02:07.344 [INFO ] [main                                    ] c.n.d.DiscoveryClient (961) [fetchRegistry] - Application is null : false
+2020-04-02 14:02:07.345 [INFO ] [main                                    ] c.n.d.DiscoveryClient (962) [fetchRegistry] - Registered Applications size is zero : true
+2020-04-02 14:02:07.345 [INFO ] [main                                    ] c.n.d.DiscoveryClient (964) [fetchRegistry] - Application version is -1: true
+2020-04-02 14:02:07.345 [INFO ] [main                                    ] c.n.d.DiscoveryClient (1047) [getAndStoreFullRegistry] - Getting all instance registry info from the eureka server
+2020-04-02 14:02:08.765 [INFO ] [main                                    ] c.n.d.DiscoveryClient (1056) [getAndStoreFullRegistry] - The response status is 200
+2020-04-02 14:02:08.770 [INFO ] [main                                    ] c.n.d.DiscoveryClient (1264) [initScheduledTasks] - Starting heartbeat executor: renew interval is: 30
+2020-04-02 14:02:08.776 [INFO ] [main                                    ] c.n.d.InstanceInfoReplicator (60) [<init>] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-04-02 14:02:08.789 [INFO ] [main                                    ] c.n.d.DiscoveryClient (449) [<init>] - Discovery Client initialized at timestamp 1585807328779 with initial instances count: 1
+2020-04-02 14:02:09.283 [WARN ] [main                                    ] c.n.c.s.URLConfigurationSource (121) [<init>] - No URLs will be polled as dynamic configuration sources.
+2020-04-02 14:02:09.284 [INFO ] [main                                    ] c.n.c.s.URLConfigurationSource (122) [<init>] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-02 14:02:12.349 [WARN ] [main                                    ] o.s.c.s.e.EurekaStarterDeprecationWarningAutoConfiguration (19) [logWarning] - spring-cloud-starter-eureka is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka
+2020-04-02 14:02:12.837 [INFO ] [main                                    ] o.s.j.e.a.AnnotationMBeanExporter (433) [afterSingletonsInstantiated] - Registering beans for JMX exposure on startup
+2020-04-02 14:02:12.889 [INFO ] [main                                    ] o.s.j.e.a.AnnotationMBeanExporter (895) [autodetect] - Bean with name 'refreshScope' has been autodetected for JMX exposure
+2020-04-02 14:02:12.891 [INFO ] [main                                    ] o.s.j.e.a.AnnotationMBeanExporter (895) [autodetect] - Bean with name 'environmentManager' has been autodetected for JMX exposure
+2020-04-02 14:02:12.893 [INFO ] [main                                    ] o.s.j.e.a.AnnotationMBeanExporter (895) [autodetect] - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2020-04-02 14:02:12.901 [INFO ] [main                                    ] o.s.j.e.a.AnnotationMBeanExporter (675) [registerBeanInstance] - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2020-04-02 14:02:12.924 [INFO ] [main                                    ] o.s.j.e.a.AnnotationMBeanExporter (675) [registerBeanInstance] - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2020-04-02 14:02:12.965 [INFO ] [main                                    ] o.s.j.e.a.AnnotationMBeanExporter (675) [registerBeanInstance] - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=3ff57625,type=ConfigurationPropertiesRebinder]
+2020-04-02 14:02:12.997 [INFO ] [main                                    ] o.s.c.s.DefaultLifecycleProcessor (351) [start] - Starting beans in phase 0
+2020-04-02 14:02:12.998 [INFO ] [main                                    ] o.s.c.n.e.s.EurekaServiceRegistry (42) [register] - Registering application DataWorkCloud-Gateway with eureka with status UP
+2020-04-02 14:02:12.999 [INFO ] [main                                    ] c.n.d.DiscoveryClient (1299) [notify] - Saw local status change event StatusChangeEvent [timestamp=1585807332999, current=UP, previous=STARTING]
+2020-04-02 14:02:13.002 [INFO ] [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.DiscoveryClient (826) [register] - DiscoveryClient_DATAWORKCLOUD-GATEWAY/localhost:DataWorkCloud-Gateway:9001: registering service...
+2020-04-02 14:02:13.097 [INFO ] [main                                    ] c.w.w.l.r.c.RPCSpringConfiguration$$EnhancerBySpringCGLIB$$efceb086 (42) [info] - DataWorkCloud RPC need register RPCReceiveRestful, now add it to configuration.
+2020-04-02 14:02:13.097 [INFO ] [main                                    ] c.w.w.l.DataWorkCloudApplication (84) [onApplicationEvent] - add config from config server...
+2020-04-02 14:02:13.097 [INFO ] [main                                    ] c.w.w.l.DataWorkCloudApplication (89) [onApplicationEvent] - initialize DataWorkCloud spring application...
+2020-04-02 14:02:16.026 [INFO ] [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.DiscoveryClient (835) [register] - DiscoveryClient_DATAWORKCLOUD-GATEWAY/localhost:DataWorkCloud-Gateway:9001 - registration status: 204
+2020-04-02 14:02:18.597 [INFO ] [reactor-http-nio-1                      ] r.i.n.t.BlockingNettyContext (255) [info] - Started HttpServer on /0:0:0:0:0:0:0:0:9001
+2020-04-02 14:02:18.598 [INFO ] [main                                    ] o.s.b.w.e.n.NettyWebServer (83) [start] - Netty started on port(s): 9001
+2020-04-02 14:02:18.599 [INFO ] [main                                    ] o.s.c.n.e.s.EurekaAutoServiceRegistration (124) [onApplicationEvent] - Updating port to 9001
+2020-04-02 14:02:18.602 [INFO ] [main                                    ] c.w.w.l.DataWorkCloudApplication (59) [logStarted] - Started DataWorkCloudApplication in 65.384 seconds (JVM running for 72.439)
+2020-04-02 14:07:07.372 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2020-04-02 14:12:07.390 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2020-04-02 18:17:31.810 [INFO ] [main                                    ] o.s.c.a.AnnotationConfigApplicationContext (590) [prepareRefresh] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1698d7c0: startup date [Thu Apr 02 18:17:31 CST 2020]; root of context hierarchy
+2020-04-02 18:17:32.349 [INFO ] [main                                    ] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor (154) [<init>] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-04-02 18:17:32.442 [INFO ] [main                                    ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker (328) [postProcessAfterInitialization] - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$3042ec8b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-02 18:17:34.909 [INFO ] [main                                    ] o.s.c.c.c.ConfigServicePropertySourceLocator (205) [getRemoteEnvironment] - Fetching config from server at : http://localhost:8888
+2020-04-02 18:17:36.667 [INFO ] [main                                    ] o.s.c.c.c.ConfigServicePropertySourceLocator (227) [getRemoteEnvironment] - Connect Timeout Exception on Url - http://localhost:8888. Will be trying the next url if available
+2020-04-02 18:17:36.668 [WARN ] [main                                    ] o.s.c.c.c.ConfigServicePropertySourceLocator (140) [locate] - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/DataWorkCloud-Gateway/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2020-04-02 18:17:36.672 [INFO ] [main                                    ] c.w.w.l.DataWorkCloudApplication (659) [logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+2020-04-02 18:17:36.804 [INFO ] [main                                    ] c.w.w.l.DataWorkCloudApplication (84) [onApplicationEvent] - add config from config server...
+2020-04-02 18:17:36.804 [INFO ] [main                                    ] c.w.w.l.DataWorkCloudApplication (89) [onApplicationEvent] - initialize DataWorkCloud spring application...
+2020-04-02 18:17:45.867 [INFO ] [main                                    ] o.s.b.w.r.c.AnnotationConfigReactiveWebServerApplicationContext (590) [prepareRefresh] - Refreshing org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext@e11ecfa: startup date [Thu Apr 02 18:17:45 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@1698d7c0
+2020-04-02 18:17:55.323 [INFO ] [main                                    ] o.s.c.c.s.GenericScope (294) [setSerializationId] - BeanFactory id=8ae8856b-7987-35e2-8f5d-68e08192c5dc
+2020-04-02 18:17:55.538 [INFO ] [main                                    ] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor (154) [<init>] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-04-02 18:17:56.836 [INFO ] [main                                    ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker (328) [postProcessAfterInitialization] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$3042ec8b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-02 18:17:58.156 [INFO ] [main                                    ] o.s.w.r.h.SimpleUrlHandlerMapping (211) [registerHandler] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.reactive.resource.ResourceWebHandler]
+2020-04-02 18:17:58.156 [INFO ] [main                                    ] o.s.w.r.h.SimpleUrlHandlerMapping (211) [registerHandler] - Mapped URL path [/**] onto handler of type [class org.springframework.web.reactive.resource.ResourceWebHandler]
+2020-04-02 18:18:02.366 [INFO ] [main                                    ] o.s.c.g.r.RouteDefinitionRouteLocator (102) [lambda$initFactories$1] - Loaded RoutePredicateFactory [After]
+2020-04-02 18:18:02.367 [INFO ] [main                                    ] o.s.c.g.r.RouteDefinitionRouteLocator (102) [lambda$initFactories$1] - Loaded RoutePredicateFactory [Before]
+2020-04-02 18:18:02.367 [INFO ] [main                                    ] o.s.c.g.r.RouteDefinitionRouteLocator (102) [lambda$initFactories$1] - Loaded RoutePredicateFactory [Between]
+2020-04-02 18:18:02.368 [INFO ] [main                                    ] o.s.c.g.r.RouteDefinitionRouteLocator (102) [lambda$initFactories$1] - Loaded RoutePredicateFactory [Cookie]
+2020-04-02 18:18:02.370 [INFO ] [main                                    ] o.s.c.g.r.RouteDefinitionRouteLocator (102) [lambda$initFactories$1] - Loaded RoutePredicateFactory [Header]
+2020-04-02 18:18:02.370 [INFO ] [main                                    ] o.s.c.g.r.RouteDefinitionRouteLocator (102) [lambda$initFactories$1] - Loaded RoutePredicateFactory [Host]
+2020-04-02 18:18:02.371 [INFO ] [main                                    ] o.s.c.g.r.RouteDefinitionRouteLocator (102) [lambda$initFactories$1] - Loaded RoutePredicateFactory [Method]
+2020-04-02 18:18:02.371 [INFO ] [main                                    ] o.s.c.g.r.RouteDefinitionRouteLocator (102) [lambda$initFactories$1] - Loaded RoutePredicateFactory [Path]
+2020-04-02 18:18:02.372 [INFO ] [main                                    ] o.s.c.g.r.RouteDefinitionRouteLocator (102) [lambda$initFactories$1] - Loaded RoutePredicateFactory [Query]
+2020-04-02 18:18:02.372 [INFO ] [main                                    ] o.s.c.g.r.RouteDefinitionRouteLocator (102) [lambda$initFactories$1] - Loaded RoutePredicateFactory [ReadBodyPredicateFactory]
+2020-04-02 18:18:02.373 [INFO ] [main                                    ] o.s.c.g.r.RouteDefinitionRouteLocator (102) [lambda$initFactories$1] - Loaded RoutePredicateFactory [RemoteAddr]
+2020-04-02 18:18:02.373 [INFO ] [main                                    ] o.s.c.g.r.RouteDefinitionRouteLocator (102) [lambda$initFactories$1] - Loaded RoutePredicateFactory [Weight]
+2020-04-02 18:18:04.230 [INFO ] [main                                    ] o.s.c.c.u.InetUtils (170) [convertAddress] - Cannot determine local hostname
+2020-04-02 18:18:05.534 [INFO ] [main                                    ] o.s.c.c.u.InetUtils (170) [convertAddress] - Cannot determine local hostname
+2020-04-02 18:18:06.251 [WARN ] [main                                    ] c.n.c.s.URLConfigurationSource (121) [<init>] - No URLs will be polled as dynamic configuration sources.
+2020-04-02 18:18:06.252 [INFO ] [main                                    ] c.n.c.s.URLConfigurationSource (122) [<init>] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-02 18:18:06.290 [INFO ] [main                                    ] c.n.c.DynamicPropertyFactory (281) [getInstance] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@3436d3d7
+2020-04-02 18:18:06.758 [INFO ] [main                                    ] o.s.b.a.e.w.EndpointLinksResolver (59) [<init>] - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-04-02 18:18:06.813 [INFO ] [main                                    ] o.s.b.a.e.w.r.WebFluxEndpointHandlerMapping (468) [register] - Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public org.reactivestreams.Publisher<org.springframework.http.ResponseEntity<java.lang.Object>> org.springframework.boot.actuate.endpoint.web.reactive.AbstractWebFluxEndpointHandlerMapping$ReadOperationHandler.handle(org.springframework.web.server.ServerWebExchange)
+2020-04-02 18:18:06.819 [INFO ] [main                                    ] o.s.b.a.e.w.r.WebFluxEndpointHandlerMapping (468) [register] - Mapped "{[/actuator/refresh],methods=[POST],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public org.reactivestreams.Publisher<org.springframework.http.ResponseEntity<java.lang.Object>> org.springframework.boot.actuate.endpoint.web.reactive.AbstractWebFluxEndpointHandlerMapping$WriteOperationHandler.handle(org.springframework.web.server.ServerWebExchange,java.util.Map<java.lang.String, java.lang.String>)
+2020-04-02 18:18:06.821 [INFO ] [main                                    ] o.s.b.a.e.w.r.WebFluxEndpointHandlerMapping (468) [register] - Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.reactive.WebFluxEndpointHandlerMapping.links(org.springframework.web.server.ServerWebExchange)
+2020-04-02 18:18:07.008 [INFO ] [main                                    ] o.s.w.r.r.m.a.ControllerMethodResolver (209) [initControllerAdviceCaches] - Looking for @ControllerAdvice: org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext@e11ecfa: startup date [Thu Apr 02 18:17:45 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@1698d7c0
+2020-04-02 18:18:07.399 [INFO ] [main                                    ] o.s.a.f.CglibAopProxy (265) [doValidateClass] - Final method [protected final void org.springframework.boot.web.servlet.support.SpringBootServletInitializer.setRegisterErrorPageFilter(boolean)] cannot get proxied via CGLIB: Calls to this method will NOT be routed to the target instance and might lead to NPEs against uninitialized fields in the proxy instance.
+2020-04-02 18:18:07.735 [INFO ] [main                                    ] c.w.w.l.r.RPCReceiveRestful (42) [info] - init all receiverChoosers in spring beans, list => List(com.webank.wedatasphere.linkis.rpc.CommonReceiverChooser@6ad26381)
+2020-04-02 18:18:07.749 [INFO ] [main                                    ] c.w.w.l.r.RPCReceiveRestful (42) [info] - init all receiverSenderBuilders in spring beans, list => List(com.webank.wedatasphere.linkis.rpc.CommonReceiverSenderBuilder@7e514482)
+2020-04-02 18:18:07.766 [INFO ] [main                                    ] c.w.w.l.r.RPCReceiveRestful (42) [info] - init RPCReceiverListenerBus with queueSize 1000 and consumeThreadSize 10.
+2020-04-02 18:18:07.772 [INFO ] [main                                    ] c.w.w.l.r.AsynRPCMessageBus (42) [info] - RPC-Receiver-Asyn-Thread-ListenerBus add a new listener => class com.webank.wedatasphere.linkis.rpc.RPCReceiveRestful$$anon$1
+2020-04-02 18:18:07.944 [INFO ] [main                                    ] o.s.c.n.e.InstanceInfoFactory (71) [create] - Setting initial instance status as: STARTING
+2020-04-02 18:18:08.095 [INFO ] [main                                    ] c.n.d.DiscoveryClient (349) [<init>] - Initializing Eureka in region us-east-1
+2020-04-02 18:18:08.309 [INFO ] [main                                    ] c.n.d.p.DiscoveryJerseyProvider (70) [<init>] - Using JSON encoding codec LegacyJacksonJson
+2020-04-02 18:18:08.310 [INFO ] [main                                    ] c.n.d.p.DiscoveryJerseyProvider (71) [<init>] - Using JSON decoding codec LegacyJacksonJson
+2020-04-02 18:18:08.989 [INFO ] [main                                    ] c.n.d.p.DiscoveryJerseyProvider (80) [<init>] - Using XML encoding codec XStreamXml
+2020-04-02 18:18:08.993 [INFO ] [main                                    ] c.n.d.p.DiscoveryJerseyProvider (81) [<init>] - Using XML decoding codec XStreamXml
+2020-04-02 18:18:09.588 [INFO ] [main                                    ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2020-04-02 18:18:09.770 [INFO ] [main                                    ] c.n.d.DiscoveryClient (958) [fetchRegistry] - Disable delta property : false
+2020-04-02 18:18:09.771 [INFO ] [main                                    ] c.n.d.DiscoveryClient (959) [fetchRegistry] - Single vip registry refresh property : null
+2020-04-02 18:18:09.772 [INFO ] [main                                    ] c.n.d.DiscoveryClient (960) [fetchRegistry] - Force full registry fetch : false
+2020-04-02 18:18:09.774 [INFO ] [main                                    ] c.n.d.DiscoveryClient (961) [fetchRegistry] - Application is null : false
+2020-04-02 18:18:09.774 [INFO ] [main                                    ] c.n.d.DiscoveryClient (962) [fetchRegistry] - Registered Applications size is zero : true
+2020-04-02 18:18:09.775 [INFO ] [main                                    ] c.n.d.DiscoveryClient (964) [fetchRegistry] - Application version is -1: true
+2020-04-02 18:18:09.775 [INFO ] [main                                    ] c.n.d.DiscoveryClient (1047) [getAndStoreFullRegistry] - Getting all instance registry info from the eureka server
+2020-04-02 18:18:10.108 [INFO ] [main                                    ] c.n.d.DiscoveryClient (1056) [getAndStoreFullRegistry] - The response status is 200
+2020-04-02 18:18:10.124 [INFO ] [main                                    ] c.n.d.DiscoveryClient (1264) [initScheduledTasks] - Starting heartbeat executor: renew interval is: 30
+2020-04-02 18:18:10.129 [INFO ] [main                                    ] c.n.d.InstanceInfoReplicator (60) [<init>] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-04-02 18:18:10.134 [INFO ] [main                                    ] c.n.d.DiscoveryClient (449) [<init>] - Discovery Client initialized at timestamp 1585822690132 with initial instances count: 1
+2020-04-02 18:18:10.332 [WARN ] [main                                    ] c.n.c.s.URLConfigurationSource (121) [<init>] - No URLs will be polled as dynamic configuration sources.
+2020-04-02 18:18:10.333 [INFO ] [main                                    ] c.n.c.s.URLConfigurationSource (122) [<init>] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-02 18:18:12.012 [WARN ] [main                                    ] o.s.c.s.e.EurekaStarterDeprecationWarningAutoConfiguration (19) [logWarning] - spring-cloud-starter-eureka is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka
+2020-04-02 18:18:12.130 [INFO ] [main                                    ] o.s.j.e.a.AnnotationMBeanExporter (433) [afterSingletonsInstantiated] - Registering beans for JMX exposure on startup
+2020-04-02 18:18:12.162 [INFO ] [main                                    ] o.s.j.e.a.AnnotationMBeanExporter (895) [autodetect] - Bean with name 'refreshScope' has been autodetected for JMX exposure
+2020-04-02 18:18:12.165 [INFO ] [main                                    ] o.s.j.e.a.AnnotationMBeanExporter (895) [autodetect] - Bean with name 'environmentManager' has been autodetected for JMX exposure
+2020-04-02 18:18:12.167 [INFO ] [main                                    ] o.s.j.e.a.AnnotationMBeanExporter (895) [autodetect] - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2020-04-02 18:18:12.174 [INFO ] [main                                    ] o.s.j.e.a.AnnotationMBeanExporter (675) [registerBeanInstance] - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2020-04-02 18:18:12.203 [INFO ] [main                                    ] o.s.j.e.a.AnnotationMBeanExporter (675) [registerBeanInstance] - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2020-04-02 18:18:12.252 [INFO ] [main                                    ] o.s.j.e.a.AnnotationMBeanExporter (675) [registerBeanInstance] - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=e11ecfa,type=ConfigurationPropertiesRebinder]
+2020-04-02 18:18:12.281 [INFO ] [main                                    ] o.s.c.s.DefaultLifecycleProcessor (351) [start] - Starting beans in phase 0
+2020-04-02 18:18:12.282 [INFO ] [main                                    ] o.s.c.n.e.s.EurekaServiceRegistry (42) [register] - Registering application DataWorkCloud-Gateway with eureka with status UP
+2020-04-02 18:18:12.285 [INFO ] [main                                    ] c.n.d.DiscoveryClient (1299) [notify] - Saw local status change event StatusChangeEvent [timestamp=1585822692285, current=UP, previous=STARTING]
+2020-04-02 18:18:12.291 [INFO ] [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.DiscoveryClient (826) [register] - DiscoveryClient_DATAWORKCLOUD-GATEWAY/localhost:DataWorkCloud-Gateway:9001: registering service...
+2020-04-02 18:18:12.353 [INFO ] [main                                    ] c.w.w.l.r.c.RPCSpringConfiguration$$EnhancerBySpringCGLIB$$743efd20 (42) [info] - DataWorkCloud RPC need register RPCReceiveRestful, now add it to configuration.
+2020-04-02 18:18:12.354 [INFO ] [main                                    ] c.w.w.l.DataWorkCloudApplication (84) [onApplicationEvent] - add config from config server...
+2020-04-02 18:18:12.354 [INFO ] [main                                    ] c.w.w.l.DataWorkCloudApplication (89) [onApplicationEvent] - initialize DataWorkCloud spring application...
+2020-04-02 18:18:12.404 [INFO ] [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.DiscoveryClient (835) [register] - DiscoveryClient_DATAWORKCLOUD-GATEWAY/localhost:DataWorkCloud-Gateway:9001 - registration status: 204
+2020-04-02 18:18:17.205 [INFO ] [reactor-http-nio-1                      ] r.i.n.t.BlockingNettyContext (255) [info] - Started HttpServer on /0:0:0:0:0:0:0:0:9001
+2020-04-02 18:18:17.206 [INFO ] [main                                    ] o.s.b.w.e.n.NettyWebServer (83) [start] - Netty started on port(s): 9001
+2020-04-02 18:18:17.208 [INFO ] [main                                    ] o.s.c.n.e.s.EurekaAutoServiceRegistration (124) [onApplicationEvent] - Updating port to 9001
+2020-04-02 18:18:17.215 [INFO ] [main                                    ] c.w.w.l.DataWorkCloudApplication (59) [logStarted] - Started DataWorkCloudApplication in 49.762 seconds (JVM running for 65.453)
+2020-04-02 18:19:27.211 [INFO ] [reactor-http-nio-2                      ] c.w.w.l.g.s.t.TokenAuthentication$ (42) [info] - loading token authentication file E:\git\WeBankFinTech\Linkis\gateway\gateway-ujes-support\target\classes\token.properties.
+2020-04-02 18:19:35.311 [INFO ] [reactor-http-nio-3                      ] c.w.w.l.s.s.SSOUtils$ (42) [info] - add login userTicketCookie for user hadoop.
+2020-04-02 18:19:41.165 [WARN ] [reactor-http-nio-4                      ] c.w.w.l.g.r.DefaultGatewayRouter (55) [warn] - Need a random dss instance, but no one can find in Discovery refresh. java.util.concurrent.TimeoutException: null
+	at com.webank.wedatasphere.linkis.common.utils.Utils$.aux$1(Utils.scala:199) ~[classes/:?]
+	at com.webank.wedatasphere.linkis.common.utils.Utils$.waitUntil(Utils.scala:204) ~[classes/:?]
+	at com.webank.wedatasphere.linkis.gateway.route.AbstractGatewayRouter$$anonfun$findAndRefreshIfNotExists$1.apply$mcV$sp(GatewayRouter.scala:45) ~[classes/:?]
+	at com.webank.wedatasphere.linkis.gateway.route.AbstractGatewayRouter$$anonfun$findAndRefreshIfNotExists$1.apply(GatewayRouter.scala:45) ~[classes/:?]
+	at com.webank.wedatasphere.linkis.gateway.route.AbstractGatewayRouter$$anonfun$findAndRefreshIfNotExists$1.apply(GatewayRouter.scala:45) ~[classes/:?]
+	at com.webank.wedatasphere.linkis.common.utils.Utils$.tryCatch(Utils.scala:48) ~[classes/:?]
+	at com.webank.wedatasphere.linkis.common.utils.Utils$.tryThrow(Utils.scala:58) ~[classes/:?]
+	at com.webank.wedatasphere.linkis.gateway.route.AbstractGatewayRouter.findAndRefreshIfNotExists(GatewayRouter.scala:49) ~[classes/:?]
+	at com.webank.wedatasphere.linkis.gateway.route.DefaultGatewayRouter.findReallyService(GatewayRouter.scala:80) ~[classes/:?]
+	at com.webank.wedatasphere.linkis.gateway.route.DefaultGatewayRouter$$anonfun$3.apply(GatewayRouter.scala:92) ~[classes/:?]
+	at com.webank.wedatasphere.linkis.gateway.route.DefaultGatewayRouter$$anonfun$3.apply(GatewayRouter.scala:92) ~[classes/:?]
+	at com.webank.wedatasphere.linkis.common.utils.Utils$.tryCatch(Utils.scala:48) ~[classes/:?]
+	at com.webank.wedatasphere.linkis.gateway.route.DefaultGatewayRouter.route(GatewayRouter.scala:92) ~[classes/:?]
+	at com.webank.wedatasphere.linkis.gateway.springcloud.http.GatewayAuthorizationFilter.gatewayDeal(GatewayAuthorizationFilter.java:147) ~[classes/:?]
+	at com.webank.wedatasphere.linkis.gateway.springcloud.http.GatewayAuthorizationFilter.filter(GatewayAuthorizationFilter.java:210) ~[classes/:?]
+	at org.springframework.cloud.gateway.handler.FilteringWebHandler$GatewayFilterAdapter.filter(FilteringWebHandler.java:133) ~[spring-cloud-gateway-core-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.cloud.gateway.filter.OrderedGatewayFilter.filter(OrderedGatewayFilter.java:44) ~[spring-cloud-gateway-core-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.cloud.gateway.handler.FilteringWebHandler$DefaultGatewayFilterChain.lambda$filter$0(FilteringWebHandler.java:115) ~[spring-cloud-gateway-core-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:44) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:3590) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.drain(MonoIgnoreThen.java:172) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:56) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:3590) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.drain(MonoIgnoreThen.java:172) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:56) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:150) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:67) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoNext$NextSubscriber.onNext(MonoNext.java:76) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.innerNext(FluxConcatMap.java:275) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxConcatMap$ConcatMapInner.onNext(FluxConcatMap.java:849) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:114) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:67) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1476) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:144) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:114) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoNext$NextSubscriber.onNext(MonoNext.java:76) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxFilterWhen$FluxFilterWhenSubscriber.drain(FluxFilterWhen.java:266) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxFilterWhen$FluxFilterWhenSubscriber.onNext(FluxFilterWhen.java:134) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onNext(FluxDematerialize.java:114) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onNext(FluxDematerialize.java:42) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drainAsync(FluxFlattenIterable.java:395) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drain(FluxFlattenIterable.java:638) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.onNext(FluxFlattenIterable.java:242) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxPeekFuseable$PeekFuseableSubscriber.onNext(FluxPeekFuseable.java:179) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1461) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoCollectList$MonoBufferAllSubscriber.onComplete(MonoCollectList.java:118) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.DrainUtils.postCompleteDrain(DrainUtils.java:131) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.DrainUtils.postComplete(DrainUtils.java:186) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxMaterialize$MaterializeSubscriber.onComplete(FluxMaterialize.java:134) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drainAsync(FluxFlattenIterable.java:325) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drain(FluxFlattenIterable.java:638) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.onComplete(FluxFlattenIterable.java:259) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onComplete(FluxMapFuseable.java:144) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1463) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoCollectList$MonoBufferAllSubscriber.onComplete(MonoCollectList.java:118) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.checkTerminated(FluxFlatMap.java:794) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.drainLoop(FluxFlatMap.java:560) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.drain(FluxFlatMap.java:540) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.onComplete(FluxFlatMap.java:426) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxIterable$IterableSubscription.slowPath(FluxIterable.java:265) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxIterable$IterableSubscription.request(FluxIterable.java:201) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.onSubscribe(FluxFlatMap.java:335) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:139) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:63) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxFlatMap.subscribe(FluxFlatMap.java:97) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoCollectList.subscribe(MonoCollectList.java:59) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoMapFuseable.subscribe(MonoMapFuseable.java:59) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoFlattenIterable.subscribe(MonoFlattenIterable.java:101) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxMaterialize.subscribe(FluxMaterialize.java:40) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoCollectList.subscribe(MonoCollectList.java:59) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoPeekFuseable.subscribe(MonoPeekFuseable.java:74) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoFlattenIterable.subscribe(MonoFlattenIterable.java:101) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxDematerialize.subscribe(FluxDematerialize.java:39) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxDefer.subscribe(FluxDefer.java:54) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxFilterWhen.subscribe(FluxFilterWhen.java:69) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoNext.subscribe(MonoNext.java:40) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoMap.subscribe(MonoMap.java:55) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoFlatMap.subscribe(MonoFlatMap.java:60) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoSwitchIfEmpty.subscribe(MonoSwitchIfEmpty.java:44) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoMap.subscribe(MonoMap.java:55) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:3590) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.drain(FluxConcatMap.java:442) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onSubscribe(FluxConcatMap.java:212) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:139) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:63) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxConcatMap.subscribe(FluxConcatMap.java:121) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoNext.subscribe(MonoNext.java:40) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoSwitchIfEmpty.subscribe(MonoSwitchIfEmpty.java:44) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoFlatMap.subscribe(MonoFlatMap.java:60) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoFlatMap.subscribe(MonoFlatMap.java:60) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoPeekTerminal.subscribe(MonoPeekTerminal.java:61) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:150) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1476) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoZip$ZipCoordinator.signal(MonoZip.java:247) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoZip$ZipInner.onNext(MonoZip.java:329) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2041) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoZip$ZipInner.onSubscribe(MonoZip.java:318) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoJust.subscribe(MonoJust.java:54) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:3590) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoZip.subscribe(MonoZip.java:128) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoFlatMap.subscribe(MonoFlatMap.java:60) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoPeekTerminal.subscribe(MonoPeekTerminal.java:61) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoPeekFuseable.subscribe(MonoPeekFuseable.java:74) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoOnErrorResume.subscribe(MonoOnErrorResume.java:44) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoOnErrorResume.subscribe(MonoOnErrorResume.java:44) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoOnErrorResume.subscribe(MonoOnErrorResume.java:44) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:3590) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.drain(MonoIgnoreThen.java:172) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:56) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoPeekFuseable.subscribe(MonoPeekFuseable.java:70) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoPeekTerminal.subscribe(MonoPeekTerminal.java:61) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.ipc.netty.channel.ChannelOperations.applyHandler(ChannelOperations.java:380) ~[reactor-netty-0.7.8.RELEASE.jar:0.7.8.RELEASE]
+	at reactor.ipc.netty.http.server.HttpServerOperations.onHandlerStart(HttpServerOperations.java:398) ~[reactor-netty-0.7.8.RELEASE.jar:0.7.8.RELEASE]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:163) [netty-common-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java) [netty-common-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404) [netty-common-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:465) [netty-transport-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884) [netty-common-4.1.25.Final.jar:4.1.25.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_241]
+
+2020-04-02 18:19:41.234 [WARN ] [reactor-http-nio-4                      ] c.w.w.l.g.r.DefaultGatewayRouter (55) [warn] - com.webank.wedatasphere.linkis.server.exception.NoApplicationExistsException: errCode: 10050 ,desc: Application dss is not exists any instances. ,ip: RENRURU ,port: 9001 ,serviceKind: DataWorkCloud-Gateway
+	at com.webank.wedatasphere.linkis.gateway.route.AbstractGatewayRouter.findAndRefreshIfNotExists(GatewayRouter.scala:43) ~[classes/:?]
+	at com.webank.wedatasphere.linkis.gateway.route.DefaultGatewayRouter.findReallyService(GatewayRouter.scala:80) ~[classes/:?]
+	at com.webank.wedatasphere.linkis.gateway.route.DefaultGatewayRouter$$anonfun$3.apply(GatewayRouter.scala:92) ~[classes/:?]
+	at com.webank.wedatasphere.linkis.gateway.route.DefaultGatewayRouter$$anonfun$3.apply(GatewayRouter.scala:92) ~[classes/:?]
+	at com.webank.wedatasphere.linkis.common.utils.Utils$.tryCatch(Utils.scala:48) ~[classes/:?]
+	at com.webank.wedatasphere.linkis.gateway.route.DefaultGatewayRouter.route(GatewayRouter.scala:92) ~[classes/:?]
+	at com.webank.wedatasphere.linkis.gateway.springcloud.http.GatewayAuthorizationFilter.gatewayDeal(GatewayAuthorizationFilter.java:147) ~[classes/:?]
+	at com.webank.wedatasphere.linkis.gateway.springcloud.http.GatewayAuthorizationFilter.filter(GatewayAuthorizationFilter.java:210) ~[classes/:?]
+	at org.springframework.cloud.gateway.handler.FilteringWebHandler$GatewayFilterAdapter.filter(FilteringWebHandler.java:133) ~[spring-cloud-gateway-core-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.cloud.gateway.filter.OrderedGatewayFilter.filter(OrderedGatewayFilter.java:44) ~[spring-cloud-gateway-core-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.cloud.gateway.handler.FilteringWebHandler$DefaultGatewayFilterChain.lambda$filter$0(FilteringWebHandler.java:115) ~[spring-cloud-gateway-core-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:44) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:3590) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.drain(MonoIgnoreThen.java:172) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:56) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:3590) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.drain(MonoIgnoreThen.java:172) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:56) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:150) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:67) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoNext$NextSubscriber.onNext(MonoNext.java:76) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.innerNext(FluxConcatMap.java:275) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxConcatMap$ConcatMapInner.onNext(FluxConcatMap.java:849) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:114) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:67) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1476) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:144) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:114) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoNext$NextSubscriber.onNext(MonoNext.java:76) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxFilterWhen$FluxFilterWhenSubscriber.drain(FluxFilterWhen.java:266) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxFilterWhen$FluxFilterWhenSubscriber.onNext(FluxFilterWhen.java:134) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onNext(FluxDematerialize.java:114) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxDematerialize$DematerializeSubscriber.onNext(FluxDematerialize.java:42) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drainAsync(FluxFlattenIterable.java:395) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drain(FluxFlattenIterable.java:638) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.onNext(FluxFlattenIterable.java:242) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxPeekFuseable$PeekFuseableSubscriber.onNext(FluxPeekFuseable.java:179) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1461) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoCollectList$MonoBufferAllSubscriber.onComplete(MonoCollectList.java:118) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.DrainUtils.postCompleteDrain(DrainUtils.java:131) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.DrainUtils.postComplete(DrainUtils.java:186) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxMaterialize$MaterializeSubscriber.onComplete(FluxMaterialize.java:134) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drainAsync(FluxFlattenIterable.java:325) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drain(FluxFlattenIterable.java:638) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.onComplete(FluxFlattenIterable.java:259) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onComplete(FluxMapFuseable.java:144) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1463) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoCollectList$MonoBufferAllSubscriber.onComplete(MonoCollectList.java:118) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.checkTerminated(FluxFlatMap.java:794) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.drainLoop(FluxFlatMap.java:560) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.drain(FluxFlatMap.java:540) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.onComplete(FluxFlatMap.java:426) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxIterable$IterableSubscription.slowPath(FluxIterable.java:265) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxIterable$IterableSubscription.request(FluxIterable.java:201) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.onSubscribe(FluxFlatMap.java:335) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:139) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:63) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxFlatMap.subscribe(FluxFlatMap.java:97) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoCollectList.subscribe(MonoCollectList.java:59) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoMapFuseable.subscribe(MonoMapFuseable.java:59) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoFlattenIterable.subscribe(MonoFlattenIterable.java:101) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxMaterialize.subscribe(FluxMaterialize.java:40) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoCollectList.subscribe(MonoCollectList.java:59) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoPeekFuseable.subscribe(MonoPeekFuseable.java:74) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoFlattenIterable.subscribe(MonoFlattenIterable.java:101) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxDematerialize.subscribe(FluxDematerialize.java:39) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxDefer.subscribe(FluxDefer.java:54) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxFilterWhen.subscribe(FluxFilterWhen.java:69) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoNext.subscribe(MonoNext.java:40) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoMap.subscribe(MonoMap.java:55) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoFlatMap.subscribe(MonoFlatMap.java:60) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoSwitchIfEmpty.subscribe(MonoSwitchIfEmpty.java:44) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoMap.subscribe(MonoMap.java:55) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:3590) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.drain(FluxConcatMap.java:442) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxConcatMap$ConcatMapImmediate.onSubscribe(FluxConcatMap.java:212) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:139) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxIterable.subscribe(FluxIterable.java:63) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.FluxConcatMap.subscribe(FluxConcatMap.java:121) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoNext.subscribe(MonoNext.java:40) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoSwitchIfEmpty.subscribe(MonoSwitchIfEmpty.java:44) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoFlatMap.subscribe(MonoFlatMap.java:60) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoFlatMap.subscribe(MonoFlatMap.java:60) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoPeekTerminal.subscribe(MonoPeekTerminal.java:61) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:150) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:1476) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoZip$ZipCoordinator.signal(MonoZip.java:247) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoZip$ZipInner.onNext(MonoZip.java:329) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:2041) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoZip$ZipInner.onSubscribe(MonoZip.java:318) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoJust.subscribe(MonoJust.java:54) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:3590) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoZip.subscribe(MonoZip.java:128) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoFlatMap.subscribe(MonoFlatMap.java:60) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoPeekTerminal.subscribe(MonoPeekTerminal.java:61) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoPeekFuseable.subscribe(MonoPeekFuseable.java:74) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoDefer.subscribe(MonoDefer.java:52) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoOnErrorResume.subscribe(MonoOnErrorResume.java:44) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoOnErrorResume.subscribe(MonoOnErrorResume.java:44) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoOnErrorResume.subscribe(MonoOnErrorResume.java:44) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.Mono.subscribe(Mono.java:3590) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoIgnoreThen$ThenIgnoreMain.drain(MonoIgnoreThen.java:172) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoIgnoreThen.subscribe(MonoIgnoreThen.java:56) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoPeekFuseable.subscribe(MonoPeekFuseable.java:70) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.core.publisher.MonoPeekTerminal.subscribe(MonoPeekTerminal.java:61) ~[reactor-core-3.2.2.RELEASE.jar:3.2.2.RELEASE]
+	at reactor.ipc.netty.channel.ChannelOperations.applyHandler(ChannelOperations.java:380) ~[reactor-netty-0.7.8.RELEASE.jar:0.7.8.RELEASE]
+	at reactor.ipc.netty.http.server.HttpServerOperations.onHandlerStart(HttpServerOperations.java:398) ~[reactor-netty-0.7.8.RELEASE.jar:0.7.8.RELEASE]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:163) [netty-common-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java) [netty-common-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404) [netty-common-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:465) [netty-transport-4.1.25.Final.jar:4.1.25.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884) [netty-common-4.1.25.Final.jar:4.1.25.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_241]
+Caused by: java.util.concurrent.TimeoutException
+	at com.webank.wedatasphere.linkis.common.utils.Utils$.aux$1(Utils.scala:199) ~[classes/:?]
+	at com.webank.wedatasphere.linkis.common.utils.Utils$.waitUntil(Utils.scala:204) ~[classes/:?]
+	at com.webank.wedatasphere.linkis.gateway.route.AbstractGatewayRouter$$anonfun$findAndRefreshIfNotExists$1.apply$mcV$sp(GatewayRouter.scala:45) ~[classes/:?]
+	at com.webank.wedatasphere.linkis.gateway.route.AbstractGatewayRouter$$anonfun$findAndRefreshIfNotExists$1.apply(GatewayRouter.scala:45) ~[classes/:?]
+	at com.webank.wedatasphere.linkis.gateway.route.AbstractGatewayRouter$$anonfun$findAndRefreshIfNotExists$1.apply(GatewayRouter.scala:45) ~[classes/:?]
+	at com.webank.wedatasphere.linkis.common.utils.Utils$.tryCatch(Utils.scala:48) ~[classes/:?]
+	at com.webank.wedatasphere.linkis.common.utils.Utils$.tryThrow(Utils.scala:58) ~[classes/:?]
+	at com.webank.wedatasphere.linkis.gateway.route.AbstractGatewayRouter.findAndRefreshIfNotExists(GatewayRouter.scala:49) ~[classes/:?]
+	... 119 more
+
+2020-04-02 18:22:33.861 [INFO ] [reactor-http-nio-1                      ] c.w.w.l.g.r.DefaultGatewayRouter (42) [info] - GatewayRouter route requestUri /api/rest_j/v1/dss/getBaseInfo with parsedService dss to ServiceInstance(dss-server, null)
+2020-04-02 18:22:33.928 [INFO ] [reactor-http-nio-1                      ] o.s.c.a.AnnotationConfigApplicationContext (590) [prepareRefresh] - Refreshing SpringClientFactory-dss-server: startup date [Thu Apr 02 18:22:33 CST 2020]; parent: org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext@e11ecfa
+2020-04-02 18:22:34.319 [INFO ] [reactor-http-nio-1                      ] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor (154) [<init>] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-04-02 18:22:35.463 [INFO ] [reactor-http-nio-1                      ] c.n.c.ChainedDynamicProperty (115) [checkAndFlip] - Flipping property: dss-server.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-04-02 18:22:35.542 [INFO ] [reactor-http-nio-1                      ] c.n.u.c.ShutdownEnabledTimer (58) [<init>] - Shutdown hook installed for: NFLoadBalancer-PingTimer-dss-server
+2020-04-02 18:22:35.553 [INFO ] [reactor-http-nio-1                      ] c.n.l.BaseLoadBalancer (192) [initWithConfig] - Client: dss-server instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=dss-server,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2020-04-02 18:22:35.596 [INFO ] [reactor-http-nio-1                      ] c.n.l.DynamicServerListLoadBalancer (222) [enableAndInitLearnNewServersFeature] - Using serverListUpdater PollingServerListUpdater
+2020-04-02 18:22:35.720 [INFO ] [reactor-http-nio-1                      ] c.n.c.ChainedDynamicProperty (115) [checkAndFlip] - Flipping property: dss-server.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-04-02 18:22:35.727 [INFO ] [reactor-http-nio-1                      ] c.n.l.DynamicServerListLoadBalancer (150) [restOfInit] - DynamicServerListLoadBalancer for client dss-server initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=dss-server,current list of Servers=[localhost:9004],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:localhost:9004;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@5a390bd5
+2020-04-02 18:22:36.619 [INFO ] [PollingServerListUpdater-0              ] c.n.c.ChainedDynamicProperty (115) [checkAndFlip] - Flipping property: dss-server.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-04-02 18:22:39.380 [INFO ] [reactor-http-nio-3                      ] c.w.w.l.g.r.DefaultGatewayRouter (42) [info] - GatewayRouter route requestUri /api/rest_j/v1/dss/getBaseInfo with parsedService dss to ServiceInstance(dss-server, null)
+2020-04-02 18:23:09.784 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2020-04-02 18:28:09.785 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2020-04-02 18:30:59.656 [INFO ] [reactor-http-nio-1                      ] c.w.w.l.g.r.DefaultGatewayRouter (42) [info] - GatewayRouter route requestUri /api/rest_j/v1/dss/getBaseInfo with parsedService dss to ServiceInstance(dss-server, null)
+2020-04-02 18:33:09.787 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2020-04-02 18:38:09.797 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2020-04-02 18:43:09.800 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2020-04-02 18:46:44.764 [INFO ] [Thread-14                               ] o.s.b.w.r.c.AnnotationConfigReactiveWebServerApplicationContext (993) [doClose] - Closing org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext@e11ecfa: startup date [Thu Apr 02 18:17:45 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@1698d7c0
+2020-04-02 18:46:44.907 [INFO ] [Thread-20                               ] c.n.l.PollingServerListUpdater (53) [run] - Shutting down the Executor Pool for PollingServerListUpdater
+2020-04-02 18:46:45.024 [INFO ] [Thread-14                               ] o.s.c.n.e.s.EurekaServiceRegistry (65) [deregister] - Unregistering application DataWorkCloud-Gateway with eureka with status DOWN
+2020-04-02 18:46:45.042 [WARN ] [Thread-14                               ] c.n.d.DiscoveryClient (1297) [notify] - Saw local status change event StatusChangeEvent [timestamp=1585824405032, current=DOWN, previous=UP]
+2020-04-02 18:46:45.163 [INFO ] [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.DiscoveryClient (826) [register] - DiscoveryClient_DATAWORKCLOUD-GATEWAY/localhost:DataWorkCloud-Gateway:9001: registering service...
+2020-04-02 18:46:45.487 [INFO ] [Thread-14                               ] o.s.c.s.DefaultLifecycleProcessor (366) [stop] - Stopping beans in phase 0
+2020-04-02 18:46:45.938 [INFO ] [Thread-14                               ] o.s.j.e.a.AnnotationMBeanExporter (451) [destroy] - Unregistering JMX-exposed beans on shutdown
+2020-04-02 18:46:46.014 [INFO ] [Thread-14                               ] o.s.j.e.a.AnnotationMBeanExporter (183) [unregisterBeans] - Unregistering JMX-exposed beans
+2020-04-02 18:46:46.603 [INFO ] [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.DiscoveryClient (835) [register] - DiscoveryClient_DATAWORKCLOUD-GATEWAY/localhost:DataWorkCloud-Gateway:9001 - registration status: 204
+2020-04-02 18:46:46.637 [INFO ] [Thread-14                               ] c.n.d.DiscoveryClient (888) [shutdown] - Shutting down DiscoveryClient ...
+2020-04-02 18:46:49.715 [INFO ] [Thread-14                               ] c.n.d.DiscoveryClient (922) [unregister] - Unregistering ...
+2020-04-02 18:46:50.180 [WARN ] [DiscoveryClient-1                       ] c.n.d.TimedSupervisorTask (85) [run] - task supervisor shutting down, can't accept the task
+2020-04-02 18:46:51.114 [INFO ] [Thread-14                               ] c.n.d.DiscoveryClient (924) [unregister] - DiscoveryClient_DATAWORKCLOUD-GATEWAY/localhost:DataWorkCloud-Gateway:9001 - deregister  status: 200
+2020-04-02 18:46:51.793 [INFO ] [Thread-14                               ] c.n.d.DiscoveryClient (911) [shutdown] - Completed shut down of DiscoveryClient
+2020-04-02 18:46:52.308 [INFO ] [Thread-14                               ] o.s.c.a.AnnotationConfigApplicationContext (993) [doClose] - Closing SpringClientFactory-dss-server: startup date [Thu Apr 02 18:22:33 CST 2020]; parent: org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext@e11ecfa
+2020-04-02 18:46:52.477 [WARN ] [Thread-14                               ] o.s.c.a.AnnotationConfigApplicationContext (1003) [doClose] - Exception thrown from ApplicationListener handling ContextClosedEvent org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaAutoServiceRegistration': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:208) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1089) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.getTargetBean(ApplicationListenerMethodAdapter.java:288) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.doInvoke(ApplicationListenerMethodAdapter.java:258) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.processEvent(ApplicationListenerMethodAdapter.java:180) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.context.event.ApplicationListenerMethodAdapter.onApplicationEvent(ApplicationListenerMethodAdapter.java:142) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:400) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:406) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:354) ~[spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1000) [spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:967) [spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.cloud.context.named.NamedContextFactory.destroy(NamedContextFactory.java:76) [spring-cloud-context-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:256) [spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571) [spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543) [spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:957) [spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504) [spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:964) [spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1041) [spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1017) [spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:937) [spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+
+2020-04-02 18:46:52.790 [INFO ] [Thread-14                               ] c.n.u.c.ShutdownEnabledTimer (67) [cancel] - Shutdown hook removed for: NFLoadBalancer-PingTimer-dss-server
+2020-04-02 18:46:52.791 [INFO ] [Thread-14                               ] c.n.u.c.ShutdownEnabledTimer (72) [cancel] - Exception caught (might be ok if at shutdown) java.lang.IllegalStateException: Shutdown in progress
+	at java.lang.ApplicationShutdownHooks.remove(ApplicationShutdownHooks.java:82) ~[?:1.8.0_241]
+	at java.lang.Runtime.removeShutdownHook(Runtime.java:239) ~[?:1.8.0_241]
+	at com.netflix.util.concurrent.ShutdownEnabledTimer.cancel(ShutdownEnabledTimer.java:70) [netflix-commons-util-0.3.0.jar:0.3.0]
+	at com.netflix.loadbalancer.BaseLoadBalancer.cancelPingTask(BaseLoadBalancer.java:613) [ribbon-loadbalancer-2.2.5.jar:2.2.5]
+	at com.netflix.loadbalancer.BaseLoadBalancer.shutdown(BaseLoadBalancer.java:864) [ribbon-loadbalancer-2.2.5.jar:2.2.5]
+	at com.netflix.loadbalancer.DynamicServerListLoadBalancer.shutdown(DynamicServerListLoadBalancer.java:285) [ribbon-loadbalancer-2.2.5.jar:2.2.5]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod(DisposableBeanAdapter.java:337) [spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:271) [spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571) [spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543) [spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:957) [spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504) [spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:964) [spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1041) [spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1017) [spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:967) [spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.cloud.context.named.NamedContextFactory.destroy(NamedContextFactory.java:76) [spring-cloud-context-2.0.0.RELEASE.jar:2.0.0.RELEASE]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:256) [spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571) [spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543) [spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:957) [spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504) [spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:964) [spring-beans-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1041) [spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1017) [spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:937) [spring-context-5.0.7.RELEASE.jar:5.0.7.RELEASE]
+
+2020-04-02 18:46:53.533 [INFO ] [Thread-14                               ] r.i.n.t.BlockingNettyContext (255) [info] - Stopped HttpServer on /0:0:0:0:0:0:0:0:9001
+2020-04-07 09:40:40.195 [INFO ] [main                                    ] o.s.c.a.AnnotationConfigApplicationContext (590) [prepareRefresh] - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@79d743e6: startup date [Tue Apr 07 09:40:40 CST 2020]; root of context hierarchy
+2020-04-07 09:40:40.689 [INFO ] [main                                    ] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor (154) [<init>] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-04-07 09:40:40.753 [INFO ] [main                                    ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker (328) [postProcessAfterInitialization] - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$91d32c51] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-07 09:40:42.409 [INFO ] [main                                    ] o.s.c.c.c.ConfigServicePropertySourceLocator (205) [getRemoteEnvironment] - Fetching config from server at : http://localhost:8888
+2020-04-07 09:40:43.666 [INFO ] [main                                    ] o.s.c.c.c.ConfigServicePropertySourceLocator (227) [getRemoteEnvironment] - Connect Timeout Exception on Url - http://localhost:8888. Will be trying the next url if available
+2020-04-07 09:40:43.667 [WARN ] [main                                    ] o.s.c.c.c.ConfigServicePropertySourceLocator (140) [locate] - Could not locate PropertySource: I/O error on GET request for "http://localhost:8888/DataWorkCloud-Gateway/default": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+2020-04-07 09:40:43.670 [INFO ] [main                                    ] c.w.w.l.DataWorkCloudApplication (659) [logStartupProfileInfo] - No active profile set, falling back to default profiles: default
+2020-04-07 09:40:43.803 [INFO ] [main                                    ] c.w.w.l.DataWorkCloudApplication (84) [onApplicationEvent] - add config from config server...
+2020-04-07 09:40:43.803 [INFO ] [main                                    ] c.w.w.l.DataWorkCloudApplication (89) [onApplicationEvent] - initialize DataWorkCloud spring application...
+2020-04-07 09:40:52.842 [INFO ] [main                                    ] o.s.b.w.r.c.AnnotationConfigReactiveWebServerApplicationContext (590) [prepareRefresh] - Refreshing org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext@5eea5627: startup date [Tue Apr 07 09:40:52 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@79d743e6
+2020-04-07 09:40:59.967 [INFO ] [main                                    ] o.s.c.c.s.GenericScope (294) [setSerializationId] - BeanFactory id=8ae8856b-7987-35e2-8f5d-68e08192c5dc
+2020-04-07 09:41:00.005 [INFO ] [main                                    ] o.s.b.f.a.AutowiredAnnotationBeanPostProcessor (154) [<init>] - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2020-04-07 09:41:00.716 [INFO ] [main                                    ] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker (328) [postProcessAfterInitialization] - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$91d32c51] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-07 09:41:01.612 [INFO ] [main                                    ] o.s.w.r.h.SimpleUrlHandlerMapping (211) [registerHandler] - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.reactive.resource.ResourceWebHandler]
+2020-04-07 09:41:01.613 [INFO ] [main                                    ] o.s.w.r.h.SimpleUrlHandlerMapping (211) [registerHandler] - Mapped URL path [/**] onto handler of type [class org.springframework.web.reactive.resource.ResourceWebHandler]
+2020-04-07 09:41:03.918 [INFO ] [main                                    ] o.s.c.g.r.RouteDefinitionRouteLocator (102) [lambda$initFactories$1] - Loaded RoutePredicateFactory [After]
+2020-04-07 09:41:03.919 [INFO ] [main                                    ] o.s.c.g.r.RouteDefinitionRouteLocator (102) [lambda$initFactories$1] - Loaded RoutePredicateFactory [Before]
+2020-04-07 09:41:03.919 [INFO ] [main                                    ] o.s.c.g.r.RouteDefinitionRouteLocator (102) [lambda$initFactories$1] - Loaded RoutePredicateFactory [Between]
+2020-04-07 09:41:03.919 [INFO ] [main                                    ] o.s.c.g.r.RouteDefinitionRouteLocator (102) [lambda$initFactories$1] - Loaded RoutePredicateFactory [Cookie]
+2020-04-07 09:41:03.920 [INFO ] [main                                    ] o.s.c.g.r.RouteDefinitionRouteLocator (102) [lambda$initFactories$1] - Loaded RoutePredicateFactory [Header]
+2020-04-07 09:41:03.921 [INFO ] [main                                    ] o.s.c.g.r.RouteDefinitionRouteLocator (102) [lambda$initFactories$1] - Loaded RoutePredicateFactory [Host]
+2020-04-07 09:41:03.921 [INFO ] [main                                    ] o.s.c.g.r.RouteDefinitionRouteLocator (102) [lambda$initFactories$1] - Loaded RoutePredicateFactory [Method]
+2020-04-07 09:41:03.937 [INFO ] [main                                    ] o.s.c.g.r.RouteDefinitionRouteLocator (102) [lambda$initFactories$1] - Loaded RoutePredicateFactory [Path]
+2020-04-07 09:41:03.937 [INFO ] [main                                    ] o.s.c.g.r.RouteDefinitionRouteLocator (102) [lambda$initFactories$1] - Loaded RoutePredicateFactory [Query]
+2020-04-07 09:41:03.938 [INFO ] [main                                    ] o.s.c.g.r.RouteDefinitionRouteLocator (102) [lambda$initFactories$1] - Loaded RoutePredicateFactory [ReadBodyPredicateFactory]
+2020-04-07 09:41:03.939 [INFO ] [main                                    ] o.s.c.g.r.RouteDefinitionRouteLocator (102) [lambda$initFactories$1] - Loaded RoutePredicateFactory [RemoteAddr]
+2020-04-07 09:41:03.939 [INFO ] [main                                    ] o.s.c.g.r.RouteDefinitionRouteLocator (102) [lambda$initFactories$1] - Loaded RoutePredicateFactory [Weight]
+2020-04-07 09:41:05.557 [INFO ] [main                                    ] o.s.c.c.u.InetUtils (170) [convertAddress] - Cannot determine local hostname
+2020-04-07 09:41:06.790 [INFO ] [main                                    ] o.s.c.c.u.InetUtils (170) [convertAddress] - Cannot determine local hostname
+2020-04-07 09:41:07.349 [WARN ] [main                                    ] c.n.c.s.URLConfigurationSource (121) [<init>] - No URLs will be polled as dynamic configuration sources.
+2020-04-07 09:41:07.349 [INFO ] [main                                    ] c.n.c.s.URLConfigurationSource (122) [<init>] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-07 09:41:07.405 [INFO ] [main                                    ] c.n.c.DynamicPropertyFactory (281) [getInstance] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@3921e96f
+2020-04-07 09:41:07.883 [INFO ] [main                                    ] o.s.b.a.e.w.EndpointLinksResolver (59) [<init>] - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-04-07 09:41:07.920 [INFO ] [main                                    ] o.s.b.a.e.w.r.WebFluxEndpointHandlerMapping (468) [register] - Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public org.reactivestreams.Publisher<org.springframework.http.ResponseEntity<java.lang.Object>> org.springframework.boot.actuate.endpoint.web.reactive.AbstractWebFluxEndpointHandlerMapping$ReadOperationHandler.handle(org.springframework.web.server.ServerWebExchange)
+2020-04-07 09:41:07.924 [INFO ] [main                                    ] o.s.b.a.e.w.r.WebFluxEndpointHandlerMapping (468) [register] - Mapped "{[/actuator/refresh],methods=[POST],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public org.reactivestreams.Publisher<org.springframework.http.ResponseEntity<java.lang.Object>> org.springframework.boot.actuate.endpoint.web.reactive.AbstractWebFluxEndpointHandlerMapping$WriteOperationHandler.handle(org.springframework.web.server.ServerWebExchange,java.util.Map<java.lang.String, java.lang.String>)
+2020-04-07 09:41:07.926 [INFO ] [main                                    ] o.s.b.a.e.w.r.WebFluxEndpointHandlerMapping (468) [register] - Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.reactive.WebFluxEndpointHandlerMapping.links(org.springframework.web.server.ServerWebExchange)
+2020-04-07 09:41:08.061 [INFO ] [main                                    ] o.s.w.r.r.m.a.ControllerMethodResolver (209) [initControllerAdviceCaches] - Looking for @ControllerAdvice: org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext@5eea5627: startup date [Tue Apr 07 09:40:52 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@79d743e6
+2020-04-07 09:41:08.440 [INFO ] [main                                    ] o.s.a.f.CglibAopProxy (265) [doValidateClass] - Final method [protected final void org.springframework.boot.web.servlet.support.SpringBootServletInitializer.setRegisterErrorPageFilter(boolean)] cannot get proxied via CGLIB: Calls to this method will NOT be routed to the target instance and might lead to NPEs against uninitialized fields in the proxy instance.
+2020-04-07 09:41:08.717 [INFO ] [main                                    ] c.w.w.l.r.RPCReceiveRestful (42) [info] - init all receiverChoosers in spring beans, list => List(com.webank.wedatasphere.linkis.rpc.CommonReceiverChooser@558aa1f1)
+2020-04-07 09:41:08.728 [INFO ] [main                                    ] c.w.w.l.r.RPCReceiveRestful (42) [info] - init all receiverSenderBuilders in spring beans, list => List(com.webank.wedatasphere.linkis.rpc.CommonReceiverSenderBuilder@38ad86b1)
+2020-04-07 09:41:08.741 [INFO ] [main                                    ] c.w.w.l.r.RPCReceiveRestful (42) [info] - init RPCReceiverListenerBus with queueSize 1000 and consumeThreadSize 10.
+2020-04-07 09:41:08.745 [INFO ] [main                                    ] c.w.w.l.r.AsynRPCMessageBus (42) [info] - RPC-Receiver-Asyn-Thread-ListenerBus add a new listener => class com.webank.wedatasphere.linkis.rpc.RPCReceiveRestful$$anon$1
+2020-04-07 09:41:08.873 [INFO ] [main                                    ] o.s.c.n.e.InstanceInfoFactory (71) [create] - Setting initial instance status as: STARTING
+2020-04-07 09:41:08.978 [INFO ] [main                                    ] c.n.d.DiscoveryClient (349) [<init>] - Initializing Eureka in region us-east-1
+2020-04-07 09:41:09.131 [INFO ] [main                                    ] c.n.d.p.DiscoveryJerseyProvider (70) [<init>] - Using JSON encoding codec LegacyJacksonJson
+2020-04-07 09:41:09.131 [INFO ] [main                                    ] c.n.d.p.DiscoveryJerseyProvider (71) [<init>] - Using JSON decoding codec LegacyJacksonJson
+2020-04-07 09:41:09.600 [INFO ] [main                                    ] c.n.d.p.DiscoveryJerseyProvider (80) [<init>] - Using XML encoding codec XStreamXml
+2020-04-07 09:41:09.600 [INFO ] [main                                    ] c.n.d.p.DiscoveryJerseyProvider (81) [<init>] - Using XML decoding codec XStreamXml
+2020-04-07 09:41:10.070 [INFO ] [main                                    ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2020-04-07 09:41:10.166 [INFO ] [main                                    ] c.n.d.DiscoveryClient (958) [fetchRegistry] - Disable delta property : false
+2020-04-07 09:41:10.166 [INFO ] [main                                    ] c.n.d.DiscoveryClient (959) [fetchRegistry] - Single vip registry refresh property : null
+2020-04-07 09:41:10.166 [INFO ] [main                                    ] c.n.d.DiscoveryClient (960) [fetchRegistry] - Force full registry fetch : false
+2020-04-07 09:41:10.167 [INFO ] [main                                    ] c.n.d.DiscoveryClient (961) [fetchRegistry] - Application is null : false
+2020-04-07 09:41:10.167 [INFO ] [main                                    ] c.n.d.DiscoveryClient (962) [fetchRegistry] - Registered Applications size is zero : true
+2020-04-07 09:41:10.168 [INFO ] [main                                    ] c.n.d.DiscoveryClient (964) [fetchRegistry] - Application version is -1: true
+2020-04-07 09:41:10.168 [INFO ] [main                                    ] c.n.d.DiscoveryClient (1047) [getAndStoreFullRegistry] - Getting all instance registry info from the eureka server
+2020-04-07 09:41:10.511 [INFO ] [main                                    ] c.n.d.DiscoveryClient (1056) [getAndStoreFullRegistry] - The response status is 200
+2020-04-07 09:41:10.515 [INFO ] [main                                    ] c.n.d.DiscoveryClient (1264) [initScheduledTasks] - Starting heartbeat executor: renew interval is: 30
+2020-04-07 09:41:10.519 [INFO ] [main                                    ] c.n.d.InstanceInfoReplicator (60) [<init>] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-04-07 09:41:10.524 [INFO ] [main                                    ] c.n.d.DiscoveryClient (449) [<init>] - Discovery Client initialized at timestamp 1586223670522 with initial instances count: 1
+2020-04-07 09:41:10.756 [WARN ] [main                                    ] c.n.c.s.URLConfigurationSource (121) [<init>] - No URLs will be polled as dynamic configuration sources.
+2020-04-07 09:41:10.756 [INFO ] [main                                    ] c.n.c.s.URLConfigurationSource (122) [<init>] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-07 09:41:11.847 [WARN ] [main                                    ] o.s.c.s.e.EurekaStarterDeprecationWarningAutoConfiguration (19) [logWarning] - spring-cloud-starter-eureka is deprecated as of Spring Cloud Netflix 1.4.0, please migrate to spring-cloud-starter-netflix-eureka
+2020-04-07 09:41:11.924 [INFO ] [main                                    ] o.s.j.e.a.AnnotationMBeanExporter (433) [afterSingletonsInstantiated] - Registering beans for JMX exposure on startup
+2020-04-07 09:41:11.942 [INFO ] [main                                    ] o.s.j.e.a.AnnotationMBeanExporter (895) [autodetect] - Bean with name 'refreshScope' has been autodetected for JMX exposure
+2020-04-07 09:41:11.945 [INFO ] [main                                    ] o.s.j.e.a.AnnotationMBeanExporter (895) [autodetect] - Bean with name 'environmentManager' has been autodetected for JMX exposure
+2020-04-07 09:41:11.946 [INFO ] [main                                    ] o.s.j.e.a.AnnotationMBeanExporter (895) [autodetect] - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2020-04-07 09:41:11.951 [INFO ] [main                                    ] o.s.j.e.a.AnnotationMBeanExporter (675) [registerBeanInstance] - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2020-04-07 09:41:11.967 [INFO ] [main                                    ] o.s.j.e.a.AnnotationMBeanExporter (675) [registerBeanInstance] - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2020-04-07 09:41:11.993 [INFO ] [main                                    ] o.s.j.e.a.AnnotationMBeanExporter (675) [registerBeanInstance] - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=5eea5627,type=ConfigurationPropertiesRebinder]
+2020-04-07 09:41:12.015 [INFO ] [main                                    ] o.s.c.s.DefaultLifecycleProcessor (351) [start] - Starting beans in phase 0
+2020-04-07 09:41:12.016 [INFO ] [main                                    ] o.s.c.n.e.s.EurekaServiceRegistry (42) [register] - Registering application DataWorkCloud-Gateway with eureka with status UP
+2020-04-07 09:41:12.017 [INFO ] [main                                    ] c.n.d.DiscoveryClient (1299) [notify] - Saw local status change event StatusChangeEvent [timestamp=1586223672017, current=UP, previous=STARTING]
+2020-04-07 09:41:12.020 [INFO ] [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.DiscoveryClient (826) [register] - DiscoveryClient_DATAWORKCLOUD-GATEWAY/localhost:DataWorkCloud-Gateway:9001: registering service...
+2020-04-07 09:41:12.032 [INFO ] [main                                    ] c.w.w.l.r.c.RPCSpringConfiguration$$EnhancerBySpringCGLIB$$d5cf3ce6 (42) [info] - DataWorkCloud RPC need register RPCReceiveRestful, now add it to configuration.
+2020-04-07 09:41:12.032 [INFO ] [main                                    ] c.w.w.l.DataWorkCloudApplication (84) [onApplicationEvent] - add config from config server...
+2020-04-07 09:41:12.033 [INFO ] [main                                    ] c.w.w.l.DataWorkCloudApplication (89) [onApplicationEvent] - initialize DataWorkCloud spring application...
+2020-04-07 09:41:12.157 [INFO ] [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.DiscoveryClient (835) [register] - DiscoveryClient_DATAWORKCLOUD-GATEWAY/localhost:DataWorkCloud-Gateway:9001 - registration status: 204
+2020-04-07 09:41:16.891 [INFO ] [reactor-http-nio-1                      ] r.i.n.t.BlockingNettyContext (255) [info] - Started HttpServer on /0:0:0:0:0:0:0:0:9001
+2020-04-07 09:41:16.892 [INFO ] [main                                    ] o.s.b.w.e.n.NettyWebServer (83) [start] - Netty started on port(s): 9001
+2020-04-07 09:41:16.893 [INFO ] [main                                    ] o.s.c.n.e.s.EurekaAutoServiceRegistration (124) [onApplicationEvent] - Updating port to 9001
+2020-04-07 09:41:16.898 [INFO ] [main                                    ] c.w.w.l.DataWorkCloudApplication (59) [logStarted] - Started DataWorkCloudApplication in 39.471 seconds (JVM running for 48.111)
+2020-04-07 09:46:10.173 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2020-04-07 09:51:10.178 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2020-04-07 09:56:10.180 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2020-04-07 10:01:22.345 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2020-04-07 10:06:22.346 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2020-04-07 10:11:22.349 [INFO ] [AsyncResolver-bootstrap-executor-0      ] c.n.d.s.r.a.ConfigClusterResolver (43) [getClusterEndpoints] - Resolving eureka endpoints via configuration
+2020-04-07 10:15:26.912 [INFO ] [Thread-14                               ] o.s.b.w.r.c.AnnotationConfigReactiveWebServerApplicationContext (993) [doClose] - Closing org.springframework.boot.web.reactive.context.AnnotationConfigReactiveWebServerApplicationContext@5eea5627: startup date [Tue Apr 07 09:40:52 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@79d743e6
+2020-04-07 10:15:26.914 [INFO ] [Thread-14                               ] o.s.c.n.e.s.EurekaServiceRegistry (65) [deregister] - Unregistering application DataWorkCloud-Gateway with eureka with status DOWN
+2020-04-07 10:15:26.914 [WARN ] [Thread-14                               ] c.n.d.DiscoveryClient (1297) [notify] - Saw local status change event StatusChangeEvent [timestamp=1586225726914, current=DOWN, previous=UP]
+2020-04-07 10:15:26.915 [INFO ] [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.DiscoveryClient (826) [register] - DiscoveryClient_DATAWORKCLOUD-GATEWAY/localhost:DataWorkCloud-Gateway:9001: registering service...
+2020-04-07 10:15:26.919 [INFO ] [Thread-14                               ] o.s.c.s.DefaultLifecycleProcessor (366) [stop] - Stopping beans in phase 0
+2020-04-07 10:15:26.926 [INFO ] [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.DiscoveryClient (835) [register] - DiscoveryClient_DATAWORKCLOUD-GATEWAY/localhost:DataWorkCloud-Gateway:9001 - registration status: 204
+2020-04-07 10:15:26.930 [INFO ] [Thread-14                               ] o.s.j.e.a.AnnotationMBeanExporter (451) [destroy] - Unregistering JMX-exposed beans on shutdown
+2020-04-07 10:15:26.931 [INFO ] [Thread-14                               ] o.s.j.e.a.AnnotationMBeanExporter (183) [unregisterBeans] - Unregistering JMX-exposed beans
+2020-04-07 10:15:27.006 [INFO ] [Thread-14                               ] c.n.d.DiscoveryClient (888) [shutdown] - Shutting down DiscoveryClient ...
+2020-04-07 10:15:30.312 [INFO ] [Thread-14                               ] c.n.d.DiscoveryClient (922) [unregister] - Unregistering ...
+2020-04-07 10:15:30.323 [INFO ] [Thread-14                               ] c.n.d.DiscoveryClient (924) [unregister] - DiscoveryClient_DATAWORKCLOUD-GATEWAY/localhost:DataWorkCloud-Gateway:9001 - deregister  status: 200
+2020-04-07 10:15:30.362 [INFO ] [Thread-14                               ] c.n.d.DiscoveryClient (911) [shutdown] - Completed shut down of DiscoveryClient
+2020-04-07 10:15:30.400 [INFO ] [Thread-14                               ] r.i.n.t.BlockingNettyContext (255) [info] - Stopped HttpServer on /0:0:0:0:0:0:0:0:9001
