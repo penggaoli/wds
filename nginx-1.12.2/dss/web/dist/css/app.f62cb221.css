@@ -1,0 +1,1129 @@
+/*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */.we-file-tree.is-empty{display:flex;justify-content:center;align-items:center}
+
+/*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ *//*!
+ / Copyright 2019 WeBank
+ /
+ / Licensed under the Apache License, Version 2.0 (the "License");
+ /  you may not use this file except in compliance with the License.
+ / You may obtain a copy of the License at
+ /
+ / http://www.apache.org/licenses/LICENSE-2.0
+ /
+ / Unless required by applicable law or agreed to in writing, software
+ / distributed under the License is distributed on an "AS IS" BASIS,
+ / WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ / See the License for the specific language governing permissions and
+ / limitations under the License.
+ /
+ / */.we-file-navbar{position:absolute;display:flex;justify-content:flex-end;top:0;left:0;width:100%;z-index:100;background:#fff}.we-file-navbar i{flex:0 1 auto;color:#589feb;font-weight:700}.we-file-navbar .navbar-cursor{cursor:pointer}.we-file-navbar-nav{justify-content:flex-start}.we-file-navbar-nav,.we-search-wrap{display:flex;align-items:center;border:1px solid #eee;border-right:none;border-left:none}.we-search-wrap{flex:0 0 auto;justify-content:space-between;height:34px}.we-search-wrap input{color:#515a6e;padding-left:12px;border:none;flex:1 1 auto;font-size:12px;outline:none;height:100%}.we-search-wrap input::-webkit-input-placeholder{color:#c5c8ce}.we-search-wrap:focus{outline:none}.we-search-wrap .search-btn{color:#515a6e;width:34px;height:34px;line-height:34px;text-align:center}.we-search-wrap .search-btn:hover{color:#515a6e}.we-search-wrap .search-btn:before{font-family:font-dws-icon!important;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;content:"\E903"}
+
+/*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ *//*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */.we-directory .we-directory-input .ivu-input[disabled],.we-directory .we-directory-input fieldset[disabled] .ivu-input{color:#333;border-bottom-left-radius:0;border-bottom-right-radius:0}.we-directory .we-directory-tree{height:120px;border:1px solid #dcdee2;border-top:0;border-radius:0 0 5px 5px;background:#fefefe;box-shadow:inset 0 2px 2px #dedede;overflow:auto}.we-directory .is-hide{display:none}
+
+/*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ *//*!
+ / Copyright 2019 WeBank
+ /
+ / Licensed under the Apache License, Version 2.0 (the "License");
+ /  you may not use this file except in compliance with the License.
+ / You may obtain a copy of the License at
+ /
+ / http://www.apache.org/licenses/LICENSE-2.0
+ /
+ / Unless required by applicable law or agreed to in writing, software
+ / distributed under the License is distributed on an "AS IS" BASIS,
+ / WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ / See the License for the specific language governing permissions and
+ / limitations under the License.
+ /
+ / */.we-upload .we-upload-content{width:310px;min-height:230px;padding-top:15px;padding-bottom:15px;cursor:default}.we-upload .we-upload-content .el-upload-dragger{height:220px}.we-upload .we-upload-content .el-upload-list{max-height:300px;overflow:auto}.we-upload .we-upload-content .we-upload_path{color:#97a8be;font-size:12px;padding-top:40px}.we-upload .v-modal{opacity:0;width:0;height:0}.we-upload .close-confirm-box{width:420px}.we-upload .close-confirm-box__content{display:flex;margin-top:-10px;margin-bottom:-10px}.we-upload .close-confirm-box__status{color:#f7ba2a;font-size:36px!important}.we-upload .close-confirm-box__message{line-height:36px;padding-left:8px}.we-upload .grayBg{background:#b5b5b5;color:#fff;padding:5px 9px;font-size:12px;border-radius:2px;border:none;margin-left:10px;border:1px solid #bbbec6}.we-upload .el-tooltip__popper.is-light{border-color:#bbbec6;color:#3d3d3d}
+
+/*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ *//*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */.we-import-to-hive{height:446px;padding:20px;padding-top:0;color:#787878;position:relative;overflow:hidden}.we-import-to-hive.first-step{overflow:auto}.we-import-to-hive .we-import-to-hive-steps{padding-bottom:9px}.we-import-to-hive .we-import-to-hive-form .step-progress{height:500px;position:absolute;width:740px;display:flex;z-index:999;background-color:rgba(0,0,0,.3);align-items:center;justify-content:center}.we-import-to-hive .we-import-to-hive-form .step-form-title{font-size:16px;color:#409eff;display:block;margin:0 0 9px}.we-import-to-hive .we-import-to-hive-form .step-form-field{display:inline-block;margin-right:10px}.we-import-to-hive .we-import-to-hive-form .step-form-extras{margin-top:6px;margin-left:5px}.we-import-to-hive .we-import-to-hive-form .seconed-Form{display:flex;flex-direction:column}.we-import-to-hive .we-import-to-hive-form .seconed-Form .field-list-wrap .field-list-item .field-list-item-child{margin-bottom:20px;display:inline-block}.we-import-to-hive .we-import-to-hive-form .seconed-Form .field-list-wrap .field-list-item .field-list-item-child .field-list-item-child-label{display:inline-block;width:30px;text-align:right;vertical-align:middle;margin-right:10px;margin-left:4px}.we-import-to-hive .we-import-to-hive-form .seconed-Form .field-list-wrap .field-list-item .field-list-item-child .field-list-item-child-comment,.we-import-to-hive .we-import-to-hive-form .seconed-Form .field-list-wrap .field-list-item .field-list-item-child .field-list-item-child-length,.we-import-to-hive .we-import-to-hive-form .seconed-Form .field-list-wrap .field-list-item .field-list-item-child .field-list-item-child-option,.we-import-to-hive .we-import-to-hive-form .seconed-Form .field-list-wrap .field-list-item .field-list-item-child .field-list-item-child-time,.we-import-to-hive .we-import-to-hive-form .seconed-Form .field-list-wrap .field-list-item .field-list-item-child .field-list-item-child-type{display:inline-block;margin:0 2px}.we-import-to-hive .we-import-to-hive-form .seconed-Form .field-list-wrap .field-list-item .field-list-item-child .field-list-item-child-type{width:104px}.we-import-to-hive .we-import-to-hive-form .seconed-Form .field-list-wrap .field-list-item .field-list-item-child .field-list-item-child-option{width:81px}.we-import-to-hive .we-import-to-hive-form .seconed-Form .field-list-wrap .field-list-item .field-list-item-child .field-list-item-child-length{width:166px}.we-import-to-hive .we-import-to-hive-form .seconed-Form .field-list-wrap .field-list-item .field-list-item-child .field-list-item-child-time{width:122px}.we-import-to-hive .we-import-to-hive-form .seconed-Form .field-list-wrap .field-list-item .field-list-item-child .field-list-item-child-comment{width:104px}.we-import-to-hive .we-import-to-hive-form .seconed-Form .field-list-wrap .field-list-item .step-form-close,.we-import-to-hive .we-import-to-hive-form .seconed-Form .field-list-wrap .field-list-item .step-form-extras{cursor:pointer}.we-import-to-hive .we-import-to-hive-form .seconed-Form .field-list-wrap .field-list-item .step-form-close{padding-top:6px}.we-import-to-hive .we-import-to-hive-form .step-form-type-supplement{margin-left:157px}.we-import-to-hive .we-import-to-hive-form .item-auto-complete .ivu-select-dropdown-list{height:300px}.we-import-to-hive .we-import-to-hive-form .form-item-help-icon{position:absolute;left:-12px;top:10px}.we-import-to-hive .we-import-to-hive-form .step-form-fields{display:inline-flex}.we-import-to-hive .we-import-to-hive-form .step-form-fields .form-item-inline{width:220px;display:inline-block}.we-import-to-hive-errmsg{color:red;position:absolute;left:24px;font-size:12px;display:inline-block;width:380px;text-align:left}.ivu-auto-complete.ivu-select-dropdown{max-height:120px}
+
+/*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */.delete-modal{display:flex;align-items:center;justify-content:center}.delete-modal .delete-modal-header{color:#f60;text-align:center}.delete-modal .delete-modal-content{text-align:center}.delete-modal .delete-modal-content .delete-modal-content-name{color:#409eff;display:inline-block;width:100%;white-space:nowrap;text-overflow:ellipsis;overflow:hidden}.delete-modal .ivu-modal{top:0}
+
+/*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ *//*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */.we-side-bar{height:100%;overflow:hidden;padding-top:38px}.we-side-bar .we-side-bar-content{height:100%;overflow-y:auto}.we-side-bar .we-side-bar-content::-webkit-scrollbar{width:6px;height:1px}.we-side-bar .we-side-bar-content::-webkit-scrollbar-thumb{border-radius:6px;box-shadow:inset 0 0 5px rgba(0,0,0,.2);background:#808695}.we-side-bar .we-side-bar-content::-webkit-scrollbar-track{border-radius:6px;box-shadow:inset 0 0 5px rgba(0,0,0,.2);background:#fff}
+
+/*!
+ / Copyright 2019 WeBank
+ /
+ / Licensed under the Apache License, Version 2.0 (the "License");
+ /  you may not use this file except in compliance with the License.
+ / You may obtain a copy of the License at
+ /
+ / http://www.apache.org/licenses/LICENSE-2.0
+ /
+ / Unless required by applicable law or agreed to in writing, software
+ / distributed under the License is distributed on an "AS IS" BASIS,
+ / WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ / See the License for the specific language governing permissions and
+ / limitations under the License.
+ /
+ / *//*!
+ / Copyright 2019 WeBank
+ /
+ / Licensed under the Apache License, Version 2.0 (the "License");
+ /  you may not use this file except in compliance with the License.
+ / You may obtain a copy of the License at
+ /
+ / http://www.apache.org/licenses/LICENSE-2.0
+ /
+ / Unless required by applicable law or agreed to in writing, software
+ / distributed under the License is distributed on an "AS IS" BASIS,
+ / WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ / See the License for the specific language governing permissions and
+ / limitations under the License.
+ /
+ / */ul{padding:0;margin:0;list-style:none}.v-hiveColumn{line-height:25px;white-space:nowrap;overflow-x:hidden}.v-hivedb-view{height:100%;padding-bottom:60px}.v-ellipsis{text-overflow:ellipsis;overflow:hidden;white-space:nowrap;width:calc(100% - 37px)}.inline-box{width:100%;display:inline-block;padding-left:5px}.v-hivedb-list{position:relative;height:inherit;overflow-y:hidden;color:#3d3d3d;font-size:12px;cursor:pointer;padding-left:12px}.v-hivedb-list:hover{overflow-y:auto}.v-hivedb-list span{display:inline-block;vertical-align:top;line-height:25px}.v-hivedb-list .v-hivetable-type{color:orange}.v-hivedb-list .v-hivetable-text{margin-left:2px}
+
+/*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */.we-table-export-minus{float:right;font-size:24px;padding-right:20px;color:#9f99a8;cursor:pointer}.we-table-export{height:420px;padding-top:20px;color:#787878;position:relative}.we-table-export .we-table-export-step{margin-left:20px}.we-table-export .v-step-progress{height:343px;position:absolute;width:100%;display:flex;z-index:999;background-color:rgba(0,0,0,.3);align-items:center;justify-content:center;border-radius:3px}.we-table-export .we-table-export-form{margin-top:20px;height:370px;overflow-y:auto}.we-table-export .we-table-export-form .item-width{width:360px}.iframeClass[data-v-27ca84b1]{position:relative;height:100%;width:100%}
+
+/*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */.fn-setting .setting-content{padding-right:16px;overflow-y:auto}.fn-setting .setting-content .preview{overflow:hidden;text-overflow:ellipsis;width:380px;white-space:nowrap}.fn-setting .setting-content .preview .preview-name{color:#67c23a}.fn-setting .setting-content .preview .preview-params{color:#409eff}.fn-setting .setting-content .preview .preview-type{color:orange}.fn-setting .setting-content .format-div{display:flex}.fn-setting .setting-content .format-div .format-item{width:50%}.fn-setting .setting-content .format-div .format-input{padding-right:6px}.fn-setting .fn-default-load{position:absolute;left:30px;bottom:20px}.fn-setting .fn-sure-btn{margin-right:10px}
+
+/*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ *//*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */.layout-footer{position:fixed;right:10px;bottom:10px;width:110px;height:50px;line-height:40px;background:transparent;overflow:hidden;padding:5px;z-index:9999}.footer-channel{border:1px solid #dcdee2;border-radius:4px;box-shadow:-1px 0 6px rgba(0,0,0,.2);background-image:linear-gradient(39deg,#f3f3f3,#f7f7f7);cursor:pointer;display:flex;align-items:center;justify-content:center;opacity:.8;cursor:move}.footer-channel .footer-channel-job{color:#19be6b;font-weight:900;margin-right:5px}.footer-channel .footer-channel-job-num{font-size:12px;color:#515a6e}.list-view-phantom{z-index:-1}.list-view-content,.list-view-phantom{position:absolute;left:0;top:0;right:0;height:100%}.list-view-content{display:flex}.list-view-item{height:100%;color:#666;box-sizing:border-box;flex-shrink:0;text-align:center}
+
+/*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */.we-table{position:relative;border-right:1px solid #e0e0e0;min-width:100%}.we-table-header,.we-table thead th{background-color:#5e9de0;color:#fff}.we-table-header{height:40px;line-height:40px}.we-table-header ul{white-space:nowrap;border-bottom:1px solid #e0e0e0}.we-table-header li{text-align:center;display:inline-block}.we-table-header li .we-table-header-content{cursor:pointer}.list-header .list-view-item{color:#fff}.list-header .list-view-item,.we-column-item{border-right:1px solid #e8eaec}.we-column-item.null-text{color:#ed4014;font-style:italic}.we-column-item.active{background-color:#ebf7ff}.header-list::-webkit-scrollbar{display:none}.caret-wrapper{display:inline-flex;flex-direction:column;align-items:center;height:34px;width:24px;vertical-align:middle;cursor:pointer;overflow:initial;position:relative}.we-table-outflow{position:absolute;top:0;left:0;width:100%;height:100%}.we-table-body{height:calc(100% - 40px)}.we-table-sort-caret{width:0;height:0;border:5px solid transparent;position:absolute}.we-table-sort-caret.ascending{border-bottom-color:#c0c4cc;top:5px}.we-table-sort-caret.descending{border-top-color:#c0c4cc;bottom:7px}.we-table-sort-caret.we-table-sort.descending{border-top-color:#fff}.we-table-sort-caret.we-table-sort.ascending{border-bottom-color:#fff}.we-column{text-align:center}.we-column,.we-column-item{border-bottom:1px solid #e0e0e0}.we-column-item{height:67px;padding:6px;word-break:break-all}.we-column-item.odd{background:#fafafa}.we-column-item.even{background:#fff}.we-column-item.is-null{color:red;font-style:italic}.we-column-item .we-column-item-content{height:100%;display:flex;align-items:center;justify-content:center;overflow-y:auto}.hidden-div .hidden-div-item{padding:12px 10px 12px 10px;word-break:break-all}.we-table-wrap{overflow:auto;display:block}.we-table-wrap .we-table{border:1px solid #dcdee2;table-layout:fixed}.we-table-wrap .we-table .we-table-thead{background-color:#2d8cf0;color:#fff}.we-table-wrap .we-table .we-table-thead .we-table-thead-cell{border-right:1px solid #dcdee2;border-bottom:1px solid #dcdee2;min-width:0;height:48px;box-sizing:border-box;text-align:left;text-overflow:ellipsis;vertical-align:middle}.we-table-wrap .we-table .we-table-row{height:40px}.we-table-wrap .we-table .we-table-row:nth-child(2n){background-color:#f8f8f9}.we-table-wrap .we-table .we-table-row:hover{background-color:#ebf7ff}.we-table-wrap .we-table .we-table-row .we-table-row-cell{border-right:1px solid #dcdee2;border-bottom:1px solid #dcdee2;min-width:0;height:48px;box-sizing:border-box;text-align:left;text-overflow:ellipsis;vertical-align:middle}.we-table-wrap .we-table .we-table-row .we-table-row-cell .we-table-row-label{line-height:20px;padding-left:18px;padding-right:18px;overflow:hidden;text-overflow:ellipsis;white-space:normal;word-break:break-all;box-sizing:border-box}.we-table-wrap .we-table .we-table-row .we-table-row-cell .we-table-row-label.ellipsis{text-align:left;word-break:keep-all;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.we-table-wrap .we-table .we-table-row .we-table-row-cell .we-table-row-label .render-btn{color:#515a6e;background-color:transparent;border-color:transparent;padding:1px 7px 2px;font-size:12px;border-radius:3px;display:inline-block;margin-bottom:0;font-weight:400;text-align:center;cursor:pointer;background-image:none;border:1px solid transparent;white-space:nowrap;border-radius:4px;transition:color .2s linear,background-color .2s linear,border .2s linear,box-shadow .2s linear}.we-table-wrap .we-table .we-table-row .we-table-row-cell .we-table-row-label .render-btn:hover{color:#57a3f3;background-color:#fff;border-color:transparent;text-decoration:none}.list-view{width:100%;height:100%;overflow:auto;position:relative;color:#333}
+
+/*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ *//*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */.progress-wrap{position:relative;height:20px;display:flex;align-items:center;font-size:10px;background:#f7f7f7;border-radius:10px}.progress-wrap .progress-busy{background:#19be6b;height:100%;border-radius:10px;position:absolute;z-index:0}.progress-wrap .progress-label{width:100%;z-index:1}.global-history{height:100%}.global-history,.global-history .global-history-searchbar{position:relative}.global-history .global-history-searchbar .float-right{position:absolute;right:10px}.global-history .ivu-form{display:flex}.global-history .ivu-form .ivu-form-item{margin-bottom:10px}.global-history .ivu-form .ivu-form-item .ivu-form-item-content{display:flex!important}.global-history .global-history-table{display:flex;justify-content:center;align-items:center;margin-top:16px}.global-history .global-history-table .ivu-table th{background-color:#2d8cf0;color:#fff}.global-history .global-history-loading{width:100%;position:absolute;z-index:1000;display:flex;justify-content:center;align-items:center;-webkit-animation:ani-demo-spin 1s linear infinite;animation:ani-demo-spin 1s linear infinite;top:0;bottom:0}.global-history .divider{margin-top:7px;height:20px}.global-history .global-history-page{margin-top:10px;width:100%;text-align:center}.global-history .log-editor-wrap{border:1px solid #dcdee2;box-shadow:0 1px 1px 0 rgba(0,0,0,.1);position:absolute;left:0;right:0;top:40px;bottom:10px}.global-history .log-editor-wrap .log-tools{height:36px;line-height:36px;padding-left:10px;background:#f7f7f7;position:relative;border-bottom:2px solid #dcdee2;overflow:hidden;margin-bottom:-2px}.global-history .log-editor-wrap .log-tools .log-tools-control{display:inline-block;position:absolute;top:2px}.global-history .log-editor-wrap .log-tools .log-tools-control .log-tabs{display:inline-block;position:absolute}.global-history .log-editor-wrap .log-tools .log-tools-control .log-search{width:100px;position:absolute;left:350px;top:5px;font-size:12px}.global-history .log-editor-wrap .log-tools .log-tools-control .err-badge{background:#ed4014!important}.global-history .log-editor-wrap .log-tools .log-tools-control .warn-badge{background:#f4cf2a!important}
+
+/*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */.global-valiable{overflow:auto}.global-valiable .global-valiable-form{overflow-y:auto}.global-valiable .global-valiable-control{text-align:right;padding-right:20px;margin-bottom:20px}.global-valiable .global-valiable-tc{text-align:center}.global-valiable .global-valiable-remove{padding-left:20px}.global-valiable .global-valiable-empty{width:100%;display:flex;justify-content:center;align-items:center}.global-valiable .global-valiable-add{margin-top:10px;display:flex;justify-content:center}
+
+/*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ *//*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */.nav-menu{position:relative;background:#252a2f;box-shadow:-1px 0 6px rgba(0,0,0,.2);position:fixed;width:100%;z-index:9999}.nav-menu .nav-menu-left{width:270px;height:100%;display:inline-block;color:#fff}.nav-menu .nav-menu-left .nav-menu-left-item{position:relative;line-height:20px;padding:12px 14px 12px 20px;border-bottom:1px solid #515a6e;cursor:pointer}.nav-menu .nav-menu-left .nav-menu-left-item.actived,.nav-menu .nav-menu-left .nav-menu-left-item:hover{background:#fff;color:#252a2f}.nav-menu .nav-menu-left .nav-menu-left-item:last-child{border-bottom:none}.nav-menu .nav-menu-left .nav-menu-left-item .nav-menu-left-main-title,.nav-menu .nav-menu-left .nav-menu-left-item .nav-menu-left-sub-title{font-size:14px}.nav-menu .nav-menu-left .nav-menu-left-item .nav-menu-left-icon{position:absolute;right:10px;color:#fff;top:16px}.nav-menu .nav-menu-right{position:absolute;top:0;bottom:0;right:0;left:270px;color:#515a6e;padding:10px;background:#fff}.nav-menu .nav-menu-right .nav-menu-right-item{margin:10px}.nav-menu .nav-menu-right .nav-menu-right-item .nav-menu-right-item-title{border-bottom:1px solid #eee;font-size:14px}.nav-menu .nav-menu-right .nav-menu-right-item .nav-menu-right-item-child{cursor:pointer;margin:10px}.nav-menu .nav-menu-right .nav-menu-right-item .nav-menu-right-item-child:hover{text-decoration:underline;color:#2d8cf0}.nav-menu .nav-menu-right .nav-menu-right-item .nav-menu-right-item-child .nav-menu-right-item-icon{margin-right:4px;color:#2d8cf0!important}
+
+/*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ *//*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */.layout-header{position:fixed;left:0;right:0;top:0;width:100%;height:40px;line-height:40px;padding:0 20px;background-color:#000;color:hsla(0,0%,100%,.8);box-shadow:0 1px 6px rgba(0,0,0,.2);z-index:10;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;clear:both}.layout-header .layout-header-menu-icon{display:inline-block;cursor:pointer;margin-right:10px;height:40px}.layout-header .layout-header-menu-icon .icon{width:32px;height:32px;margin-top:4px}.layout-header .layout-header-menu-icon:hover{color:#2d8cf0}.layout-header .logo{margin-left:10px;display:inline-block;vertical-align:top;font-size:20px;color:#fff;margin-top:2px}.layout-header .logo .logo-title{text-indent:-10000px;position:absolute;top:0;left:0;width:0}.layout-header .logo .logo-img{height:36px}.layout-header .menu{display:inline-block;vertical-align:top;margin-left:60px}.layout-header .menu .menu-item{position:relative;float:left;padding:0 20px;font-size:14px;text-align:center;text-indent:0;border-right:none;cursor:pointer}.layout-header .menu .menu-item.selected,.layout-header .menu .menu-item:hover{color:#fff;background:#000c17}.layout-header .menu .menu-item .menu-item-beat{position:absolute;top:0;right:0}.layout-header .icon-group{float:right;cursor:pointer;text-align:center;padding:0 6px;line-height:40px;height:40px;font-size:14px}.layout-header .icon-group i{font-size:20px;margin-right:10px}.layout-header .icon-group i:hover{color:#fff}.layout-header .user{float:right;height:40px;cursor:pointer;position:relative}.layout-header .user span{display:inline-block;line-height:40px;font-size:14px;padding:0 7px 0 10px}.layout-header .user .user-icon{padding-right:10px}.layout-header .user .user-menu{background:#363e4f;width:130px;border:none;position:absolute;top:50px;left:50%;margin-left:-75px;border-radius:4px}.layout-header .user .user-menu .user-menu-arrow{width:0;height:0;border:8px solid #fff;border-color:transparent transparent #363e4f transparent;border-top:0;list-style:none;position:absolute;top:-8px;left:50%;margin-left:-4px}.layout-header .user .user-menu .user-menu-item{list-style:none;padding-left:20px;height:40px;display:flex;align-items:center;justify-content:flex-start}.layout-header .user .user-menu .user-menu-item:hover{color:#fff;background:#000c17;border-top:none;border-radius:4px}.layout-header .user .user-menu .user-menu-item .user-menu-item-icon{font-size:16px;font-weight:700}.layout-header .user.selected,.layout-header .user:hover{background:#363e4f}.layout-header .user .user-image{border-radius:50%;width:40px;height:auto}.layout-header .proj-select{margin-left:25px;vertical-align:middle;color:#fff;margin-top:-2px;display:inline-block}.layout-header .project-dro{vertical-align:top}.layout-header .proj-list{height:400px;overflow-y:auto;color:#333}.layout-header .proj-name{padding:0 15px;height:30px;line-height:30px;font-size:14px;border-bottom:1px solid #eee;margin-bottom:2px;color:#999}.layout-header .proj-item{width:200px;padding-left:20px;height:28px;line-height:28px;cursor:pointer}.layout-header .proj-item:hover{background-color:#eee}.layout-header .proj-item.active{color:#2d8cf0}
+
+/*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ *//*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */.ide{position:relative;width:100%;height:100%;display:flex}.ide .container{flex:1}.ide .center-panel,.ide .right-panel{border-left:1px solid #dcdee2}.ide .nav-list{width:44px;height:100%;border-right:1px solid #dcdee2;background:#f8f8f9}.ide .nav-list .nav-warp{position:absolute;height:100%;top:0;left:0;overflow:hidden}.ide .nav-list .nav-item{width:43px;padding:32px 4px;text-align:center;cursor:pointer}.ide .nav-list .nav-item.actived{width:44px;border-left:3px solid #2d8cf0;border-bottom:1px solid #dcdee2;border-top:1px solid #dcdee2;background:#fff;color:#2d8cf0}.ide .nav-list .nav-item:hover{color:#2d8cf0}.ide .nav-list .nav-item .nav-icon{font-size:16px}.ide .nav-list .nav-item .nav-name{width:100%;white-space:normal;word-break:break-all;display:inline-block;line-height:16px}.ide .narrow{width:30px}.ide .narrow .nav-item{width:100%;padding:30px 4px}.ide .narrow .nav-item.actived{width:30px}.ide .narrow .nav-item .nav-icon{font-size:14px}
+
+/*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ *//*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */.log-view{position:absolute;left:0;right:0;top:40px;bottom:0;padding:20px}.log-view .log-editor-wrap{border:1px solid #dcdee2;box-shadow:0 1px 1px 0 rgba(0,0,0,.1);position:absolute;left:10px;right:20px;top:62px;bottom:20px}.log-view .log-editor-wrap .log-tools{height:36px;line-height:36px;padding-left:10px;background:#f7f7f7;position:relative;border-bottom:2px solid #dcdee2;overflow:hidden;margin-bottom:-2px}.log-view .log-editor-wrap .log-tools .log-tools-control{display:inline-block;position:absolute;top:2px}.log-view .log-editor-wrap .log-tools .log-tools-control .log-tabs{display:inline-block;position:absolute}.log-view .log-editor-wrap .log-tools .log-tools-control .log-search{width:100px;position:absolute;left:350px;top:5px;font-size:12px}.log-view .log-editor-wrap .log-tools .log-tools-control .err-badge{background:#ed4014!important}.log-view .log-editor-wrap .log-tools .log-tools-control .warn-badge{background:#f4cf2a!important}.log-view .log-search{margin:0 0 0 20px}
+
+/*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */.dynamic-form{padding:10px 10px 2px;margin:10px;background:hsla(0,0%,100%,.7);border-radius:4px}.dynamic-form .dynamic-form-header-wrap{display:flex;justify-content:space-between;align-items:center;height:30px;padding-right:7px}.dynamic-form .dynamic-form-header-wrap .dynamic-form-header-title{display:inline-block}.dynamic-form .dynamic-form-header-wrap .icon-add{cursor:pointer}.dynamic-form .dynamic-form-content .ivu-form-item{margin-bottom:16px}.dynamic-form .dynamic-form-content .dynamic-form-close{font-size:18px;cursor:pointer}.dynamic-form .dynamic-form-content .dynamic-form-close:hover{color:#2d8cf0}
+
+/*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ *//*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */.process-module{position:relative;height:100%;width:100%}.process-module .process-console{position:absolute;left:250px;bottom:2px;top:60%;z-index:3;width:100%}.process-module-param{position:absolute;top:0;bottom:0;right:0;width:360px;border:1px solid #d7dde4;border-top:0;box-shadow:-6px 0 6px -6px rgba(0,0,0,.2);z-index:1008;background:#fff;overflow-y:auto}.process-module-param .process-module-param-modal-header{height:36px;line-height:36px;border-bottom:1px solid #d7dde4;padding-left:10px;margin-bottom:10px}.process-module-param .process-module-param-modal-content .node-parameter-bar{padding:10px 15px 10px 10px}.process-module-param .process-module-param-modal-content .node-parameter-bar .ivu-form-item-error-tip{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;width:100%;height:30px}.process-module-param .process-module-param-modal-content .node-module-param-modal-header{padding-left:10px}.process-module-param .process-module-param-modal-content .save-button{text-align:center;padding-bottom:25px}.process-module-title{font-size:14px;color:#17233d}.workflow-arguments .workflow-arguments-title-wrap{display:flex;justify-content:space-between;align-items:center;height:30px;padding-right:7px}.workflow-arguments .workflow-arguments-setting{padding:10px 10px 2px;margin:10px;background:hsla(0,0%,100%,.7);border-radius:4px}.workflow-resource{width:100%;height:100%;position:relative;padding:16px}.workflow-resource .workflow-resource-list .workflow-resource-list-ul .workflow-resource-list-item{height:28px;line-height:28px;padding:0 10px;display:flex;justify-content:space-between;align-items:center;background:#fff;border-radius:4px;margin:4px 0}.workflow-resource .workflow-resource-list .workflow-resource-list-ul .workflow-resource-list-item:hover{background:#f3f3f3}.workflow-resource .workflow-resource-list .workflow-resource-list-ul .workflow-resource-list-item .workflow-resource-list-name{max-width:calc(100% - 30px);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.workflow-resource .workflow-resource-upload{margin-top:20px}.we-editor.process-module-editor{height:300px}.ivu-modal-confirm-body>div p,.repetition-name .ivu-modal-body{word-break:break-all}.node-selected{background-color:rgba(0,0,0,.2)!important}.ivu-select-dropdown{max-width:100%;overflow:auto}.single{display:none}.waterMask{top:0;left:0;position:absolute;pointer-events:none;width:100%;height:100%}.ivu-select-dropdown[data-v-42685bbc]{min-width:150px;position:absolute;will-change:bottom,left;transform-origin:center top;bottom:21px;left:0;z-index:9999;overflow:hidden}.list[data-v-42685bbc]{font-size:12px;height:18px;line-height:18px}.list li[data-v-42685bbc]{padding-left:8px}.list li[data-v-42685bbc]:hover{background-color:#e9e9e9}.list .current[data-v-42685bbc]{color:#2d8cf0}.result-normal-table table{min-width:100%}.icon{width:1em;height:1em;vertical-align:-.15em;fill:currentColor;overflow:hidden}.canvas[data-v-c7243596]{position:absolute;left:0;top:0}
+
+/*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ *//*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ *//*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */article,aside,blockquote,body,button,dd,details,div,dl,dt,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,hr,input,legend,li,menu,nav,ol,p,section,td,textarea,th,ul{margin:0;padding:0}button,input,select,textarea{font-family:inherit;font-size:inherit;line-height:inherit}.designer{position:relative;width:100%;height:100%;overflow:hidden;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;outline:none;font-size:12px;color:#657180;background:#fff}.designer *{-webkit-tap-highlight-color:rgba(0,0,0,0)}.designer *,.designer :after,.designer :before{box-sizing:border-box}.designer .designer-button,.designer input,.designer textarea{height:26px;line-height:26px;padding:0 8px;border:1px solid #d7dde4;outline:0;font-size:12px;border-radius:2px;color:#657180;background-color:#fff}.designer .designer-button{padding:0 12px}.designer .designer-toolbar{position:absolute;left:0;top:0;width:100%;height:36px;padding-left:10px;background:#f7f7f7;color:#000;border:1px solid #d7dde4}.designer .designer-toolbar .icon{display:inline-block;vertical-align:text-top;width:18px;height:18px;color:#333;text-align:center}.designer .designer-toolbar .text{vertical-align:text-top}.designer .designer-toolbar .button{float:left;margin:6px 5px 6px 0;padding:0;height:18px;text-align:left;border:1px solid transparent;border-radius:2px;position:relative;cursor:pointer}.designer .designer-toolbar .button svg{margin-right:5px;color:#666}.designer .designer-toolbar .button span{vertical-align:middle;color:#666}.designer .designer-toolbar .long-button{min-width:60px}.designer .designer-toolbar .devider{float:left;border-left:1px solid #e3e8ee;height:18px;margin:8px 5px}.designer.show-toolbar .designer-control,.designer.show-toolbar .designer-shape,.designer.show-toolbar .designer-viewport,.designer.show-toolbar .right-draw{top:36px}.designer .designer-shape{position:absolute;left:0;top:0;bottom:0;width:200px;overflow-x:hidden;overflow-y:auto;background:#f7f7f7;border-right:1px solid #d7dde4}.designer .designer-shape .shape-search{display:block;width:80%;margin:10px auto}.designer .designer-shape .shape-container{margin-top:1px;border-bottom:1px solid #e3e8ee}.designer .designer-shape .shape-container.top{border-top:1px solid #e3e8ee}.designer .designer-shape .shape-container .icon{height:14px;width:14px}.designer .designer-shape .shape-container .shape-title{position:relative;margin:0;height:30px;line-height:30px;padding-left:20px;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;cursor:pointer;color:#464c5b;font-weight:400}.designer .designer-shape .shape-container .shape-content{padding-bottom:10px;padding-left:10px}.designer .designer-shape .shape-box{display:inline-block;margin:5px;width:60px;text-align:center;cursor:pointer}.designer .designer-shape .shape-title-txt{text-overflow:ellipsis;overflow:hidden}.designer .designer-shape .shape-box-img{display:inline-block;width:36px;height:100%;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;pointer-events:none}.designer .designer-shape .shape-box-draging{position:absolute;text-align:center;border-radius:4px;opacity:.5;cursor:all-scroll}.designer .designer-viewport{position:absolute;left:200px;top:0;right:0;bottom:0;overflow:auto}.designer .snap-line{position:absolute;z-index:4;background:#6eb1eb}.designer .node-box{position:absolute;left:0;top:0;z-index:2;background:#fff;cursor:move}.designer .node-box:hover .node-anchor{display:block}.designer .node-box .node-anchor{display:none;position:absolute;z-index:1;border-color:#f90;border-style:solid;border-width:1px;background:#fff;cursor:crosshair}.designer .node-box .node-box-bg{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;pointer-events:none}.designer .node-box .node-box-content{position:absolute;left:30%;top:0;bottom:0;right:16%;z-index:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.designer .linker-box{position:absolute;z-index:1;display:none}.designer .drag-linker-box{cursor:crosshair}.designer .right-draw{position:absolute;top:0;right:0;bottom:0;width:400px;border-left:1px solid #d7dde4;border-right:1px solid #d7dde4;box-shadow:-6px 0 6px -6px rgba(0,0,0,.2);overflow:auto;z-index:1100;color:#657180;background:#fff}.designer .right-draw .icon{width:14px;height:14px;cursor:pointer}.designer .right-draw .right-draw-title{padding:0 20px;height:36px;line-height:36px;color:#464c5b;border-bottom:1px solid #e3e8ee;font-size:12px;font-weight:500}.designer .right-draw .right-draw-title .icon{width:16px;height:16px;float:right;color:#464c5b;margin-top:6px}.designer .right-draw .right-draw-content{padding:0 20px}.designer .right-draw .row{margin:16px 0;font-size:0}.designer .right-draw .row .row-name{padding-right:20px;display:inline-block;vertical-align:middle;width:100px;text-align:right;font-size:12px}.designer .right-draw .row .half{display:inline-block;width:50%;vertical-align:middle;font-size:12px;text-align:center}.designer .right-draw .row .row-input{vertical-align:middle;width:200px}.designer .right-draw .row .row-button{cursor:pointer}.designer .right-draw .row .row-button:hover{background:#f3f3f3}.designer .right-draw .row textarea{min-height:52px}.designer .baseinfo .row-button{margin-left:100px}.designer .paraminfo .row-button{margin-left:155px}.designer .designer-control{position:absolute;top:0;bottom:0;right:14px;width:36px;z-index:1000}.designer .designer-control .designer-control-header{background:#5c5c5c;background-image:linear-gradient(top,#5c5c5c,#3e3e3e);height:8px;border-left:1px solid #5c5c5c;border-right:1px solid #5c5c5c;border-top:1px solid #646464;border-bottom:1px solid #000}.designer .designer-control .designer-control-buttons{background-color:#fff;padding:10px 0 10px;border-left:1px solid #d7dde4;border-right:1px solid #d7dde4;border-bottom:1px solid #d7dde4;overflow:hidden}.designer .designer-control .designer-control-button{position:relative;margin:5px 5px 5px 5px;height:24px;line-height:24px;text-align:center;font-size:18px;cursor:pointer}.designer .designer-control .designer-control-dialog{position:absolute;top:50px;right:40px;width:220px;height:120px;background:#fff;border:2px solid rgba(0,0,0,.5);box-shadow:0 1px 6px rgba(0,0,0,.8)}.designer .designer-control .designer-control-dialog .line-type{width:100%;height:40px;display:flex;justify-content:center}.designer .designer-control .designer-control-dialog .line-type input,.designer .designer-control .designer-control-dialog .line-type label{margin:0 3px;align-self:center;cursor:pointer}.designer .designer-control .designer-control-dialog .node-width-container,.designer .designer-control .designer-control-dialog .operations{width:100%;height:40px;text-align:center}.designer .designer-control .designer-control-dialog .operations .cancel,.designer .designer-control .designer-control-dialog .operations .format{margin-left:5px;display:inline-block;width:50px;height:24px;line-height:24px;border:1px solid #d7dde4;cursor:pointer}.designer .designer-control .designer-control-dialog .operations .cancel:hover,.designer .designer-control .designer-control-dialog .operations .format:hover{border:1px solid #000}.designer .designer-control .designer-control-dialog.reset{top:120px;height:90px}.designer .designer-control .designer-control-dialog.reset .hint{margin-top:5px;width:100%;height:40px;line-height:40px;text-align:center}.designer .box-select-layer{position:absolute;left:0;top:0;border:1px solid #39f;background-color:rgba(51,153,255,.28);z-index:999;display:none}.designer .node-selected{box-shadow:0 0 8px #39f}.designer-menu{position:absolute;overflow:auto;padding:6px 0;background-color:#fff;box-sizing:border-box;border-radius:4px;box-shadow:0 1px 4px rgba(0,0,0,.25);z-index:900}.designer-menu .designer-menu-ul{min-width:100px}.designer-menu .designer-menu-ul .designer-menu-li{position:relative;padding:0 10px;margin:0;line-height:25px;height:25px;color:#657180;font-size:12px;text-align:left;clear:both;white-space:nowrap;list-style:none;cursor:pointer;transition:background .2s ease-in-out}.designer-menu .designer-menu-ul .designer-menu-li:hover{background:#f3f3f3}.designer-menu .designer-menu-li-icon{display:inline-block;vertical-align:middle;height:16px;width:16px;margin-top:-1px;color:#657180}.designer-menu .menu-img{margin-left:5px}.designer-menu .designer-menu-li-text{margin-left:10px;vertical-align:middle}.executor-pending{position:absolute;background:#fff;border:2px solid #666;right:-30px;top:-37px;border-radius:4px;padding:3px}.executor-pending:after,.executor-pending:before{top:100%;left:50%;border:solid transparent;content:" ";height:0;width:0;position:absolute;pointer-events:none}.executor-pending:after{border-top-color:#fff;border-width:7px;margin-left:-23px}.executor-pending:before{border-top-color:#666;border-width:10px;margin-left:-26px}.executor-icon{position:absolute;right:10px;top:10px}.executor-success{color:rgba(78,225,78,.7)}.executor-faile{color:#ed4014}.executor-skip{color:#f90}.executor-loading{-webkit-animation:loading 2s linear 0s infinite;animation:loading 2s linear 0s infinite;color:rgba(83,219,233,.7)}@-webkit-keyframes loading{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}@keyframes loading{0%{transform:rotate(0deg)}to{transform:rotate(1turn)}}
+
+/*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ *//*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */.page-process{height:calc(100% - 36px);width:100%;background-color:#f7f7f7}.page-process .bread-crumb{margin:5px}.process-tabs{position:relative;height:100%;overflow:hidden}.process-tabs.no-tab .process-tab{display:none}.process-tabs.no-tab .process-container{height:100%}.process-tabs .process-tab{display:flex;flex-direction:row;flex-wrap:nowrap;justify-content:flex-start;align-items:flex-start;height:32px;padding:0 20px;box-sizing:border-box;border-top:1px solid #e3e8ee}.process-tabs .process-tab .process-tab-item{position:relative;height:30px;line-height:30px;padding:0 20px;border-right:1px solid #e3e8ee;background:#f7f7f7;color:#17233d;cursor:pointer;min-width:100px;max-width:200px;overflow:hidden;text-align:center}.process-tabs .process-tab .process-tab-item:first-child{border-left:1px solid #e3e8ee}.process-tabs .process-tab .process-tab-item.active{margin-top:-1px;height:32px;line-height:31px;background:#fff;color:#2d8cf0}.process-tabs .process-tab .process-tab-item.active:before{content:"";position:absolute;top:-1px;left:0;right:0;height:3px;background:#2d8cf0}.process-tabs .process-tab .process-tab-item .process-tab-name{width:100%;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;padding-right:5px;padding-left:5px}.process-tabs .process-tab .process-tab-item .ivu-icon,.process-tabs .process-tab .process-tab-item .process-tab-unsave-icon{position:absolute;right:10px;top:10px}.process-tabs .process-tab .process-tab-item .tab-icon{position:absolute;left:7px;top:8px;width:15px;height:15px}.process-tabs .process-tab .process-tab-item .flow{width:12px;height:12px}.process-tabs .process-tab .process-tab-item .hivesql{width:16px;height:16px}.process-tabs .process-tab .process-tab-item .display{width:13px;height:13px}.process-tabs .process-tab .process-tab-item .dashboard{width:14px;height:14px}.process-tabs .process-container{height:calc(100% - 32px)}
+
+/*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ *//*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */.entry{font-size:16px;height:120px;line-height:120px;background:#515a6e;margin:10px 30px 10px 10px;color:#fff;text-align:center;cursor:pointer}.entry:hover,.entry:hover .icon-blod{font-weight:600}.no-data-bgc{font-size:14px;position:absolute;top:0;bottom:40px;display:flex;flex-direction:column;align-items:center;justify-content:center}.no-data-bgc .no-data-img{width:200px;margin-top:150px}.no-data-bgc .bg-text{width:60%;text-align:left;display:block;line-height:40px}.no-data-bgc .bg-text.weight{margin-top:10px;font-weight:700}.no-data-bgc .bg-text.indent{text-indent:2em}.icon-blod{margin-right:2px}.sort-icon{margin-top:10px;margin-right:8%;float:right;color:#2d8cf0;cursor:pointer}.icon{margin-left:5px;color:#2d8cf0}.header-search{padding:0 35px;overflow:hidden}.header-search .search-input{width:200px}.page-bgc{background-color:#f7f7f7;background:#fff}.page-bgc .page-bgc-header{padding:10px 25px 0}.page-bgc .header-title{font-size:14px;font-weight:700;padding-left:5px;border-left:3px solid #2d8cf0}.page-bgc .header-info{padding:10px 0 10px 20px}.page-bgc .header-info p{line-height:24px}.page-bgc .project-type{padding:10px 0}.page-bgc .project-type .project-type-module{width:calc(50% - 60px);min-width:400px;display:inline-block;vertical-align:top;margin:0 30px;background:#fff;padding:10px 0}.page-bgc .project-type .project-type-header{line-height:30px;padding:0 10px}.page-bgc .project-type .project-type-header .project-type-header-more{display:inline}.page-bgc .project-type .project-type-header .project-type-header-label{font-size:14px;display:inline-block;margin:0 5px;font-weight:900}.page-bgc .project-type .project-type-header .project-type-header-help{display:inline-block;margin-left:20px;text-decoration:underline;cursor:pointer}.page-bgc .project-type .project-type-header .project-type-header-help .help{font-size:14px}.page-bgc .project-type .project-type-header .project-type-header-help:hover{color:#2d8cf0}.page-bgc .project-type .project-type-header .project-type-header-help-icon{float:right;margin-top:8px;margin-right:2px}.page-bgc .project-type .project-type-more{overflow-y:auto;background:#f7f7f7;width:420px;height:140px;margin:10px 20px 0}.page-bgc .project-type .project-type-more p{line-height:20px}.page-bgc .project-type .en{background:url(../img/appInfo_en.57b9b67e.png) no-repeat;background-size:contain}.page-bgc .project-type .cn{background:url(../img/appInfo_zh.f0125d3a.png) no-repeat;background-size:contain}.page-bgc .project-type .project-type-list{display:flex;align-items:center;width:520px;flex-wrap:wrap;line-height:18px;padding-left:10px;padding-top:10px}.page-bgc .project-type .project-type-list .project-type-list-item-wrap{width:160px;display:flex;align-items:center;height:60px;margin:0 10px 0 0;padding:4px 8px;cursor:pointer}.page-bgc .project-type .project-type-list .project-type-list-item-wrap:hover{box-shadow:0 2px 12px 0 rgba(0,0,0,.2);border-radius:4px}.page-bgc .project-type .project-type-list .project-type-list-item-wrap .project-type-list-icon{font-size:30px}.page-bgc .project-type .project-type-list .project-type-list-item-wrap .project-type-list-img{width:30px;height:30px}.page-bgc .project-type .project-type-list .project-type-list-item-wrap .project-type-list-item{margin-left:8px;position:relative}.page-bgc .project-type .project-type-list .project-type-list-item-wrap .project-type-list-item .project-type-list-item-title{width:110px;color:#2d8cf0;font-weight:700;font-size:14px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.page-bgc .project-type .project-type-list .project-type-list-item-wrap .project-type-list-item .project-type-list-item-sub{width:110px;font-size:10px;color:#999;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.radio-box .ivu-radio .ivu-radio-inner{border:1px solid #2d8cf0}
+
+/*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ *//*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */.content-item[data-v-73fa4d0d]{margin-bottom:20px;padding:0 20px}.content-item .project-list-ul[data-v-73fa4d0d]{padding:10px 20px;display:flex;justify-content:space-around;align-items:center;flex-wrap:wrap}.content-item .project-item[data-v-73fa4d0d]{height:180px;margin:15px;box-shadow:0 2px 12px 0 rgba(0,0,0,.2);background:#fff}.content-item .project-item .project-main[data-v-73fa4d0d]{position:relative;height:130px;padding:5px;background:url(../img/project_bg.729e3ef9.png) 50% no-repeat;background-size:cover;cursor:pointer;transition:transform .2s linear,box-shadow .2s linear,background-size .5s linear;color:#fff}.content-item .project-item .project-main .project-main-icon[data-v-73fa4d0d]{position:absolute;left:6px;top:6px}.content-item .project-item .project-main .project-main-business[data-v-73fa4d0d]{right:10px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:13px}.content-item .project-item .project-main .applicationArea[data-v-73fa4d0d],.content-item .project-item .project-main .product-app[data-v-73fa4d0d]{display:flex;width:100%;justify-content:start;align-items:center}.content-item .project-item .project-main .applicationArea .product[data-v-73fa4d0d],.content-item .project-item .project-main .product-app .product[data-v-73fa4d0d]{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-right:15px}.content-item .project-item .project-main .applicationArea .product .product-bgc[data-v-73fa4d0d],.content-item .project-item .project-main .product-app .product .product-bgc[data-v-73fa4d0d]{display:inline-block;padding-right:5px;width:20px;height:20px;vertical-align:middle}.content-item .project-item .project-main .applicationArea .app[data-v-73fa4d0d],.content-item .project-item .project-main .product-app .app[data-v-73fa4d0d]{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.content-item .project-item .project-main .applicationArea .app .app-bgc[data-v-73fa4d0d],.content-item .project-item .project-main .product-app .app .app-bgc[data-v-73fa4d0d]{display:inline-block;padding-right:5px;width:20px;height:20px;margin-top:-2px;vertical-align:middle}.content-item .project-item .project-main .low[data-v-73fa4d0d]{position:absolute;bottom:20px;left:5px}.content-item .project-item .project-main .middle[data-v-73fa4d0d]{position:absolute;bottom:43px;left:5px}.content-item .project-item .project-main .high[data-v-73fa4d0d]{position:absolute;bottom:65px;left:5px}.content-item .project-item .project-main[data-v-73fa4d0d]:hover{transform:translate3d(0,-2px,0)}.content-item .project-item .project-main .versions[data-v-73fa4d0d]{position:absolute;top:-1px;left:-1px}.content-item .project-item .project-main .tool-bar[data-v-73fa4d0d]{width:100%;padding:5px;text-align:right}.content-item .project-item .project-main .tool-bar .tool-bar-more[data-v-73fa4d0d]{display:inline-block}.content-item .project-item .project-main .icon-bar .icon-marsk[data-v-73fa4d0d]{position:absolute;left:10px;top:10px;padding:1px 5px;background-color:rgba(0,0,0,.15);border-radius:3px;align-items:center}.content-item .project-item .project-main .icon-bar .icon-marsk .status-icon[data-v-73fa4d0d]{margin-top:-2px}.content-item .project-item .project-main .icon-bar .icon-bar-menu[data-v-73fa4d0d]{position:absolute;right:0;bottom:0;background:#000}.content-item .project-item .project-item-info[data-v-73fa4d0d]{padding:2px 10px 6px}.content-item .project-item .project-main-title[data-v-73fa4d0d]{font-size:16px;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;font-weight:500}.content-item .project-item .project-main-desc[data-v-73fa4d0d]{font-size:12px;color:#999}.content-item .project-item .version-bar[data-v-73fa4d0d]{display:inline-block;background-color:#52adfb;border-radius:2px;padding:1px 3px;color:#fff;line-height:13px;transform:scale(.7,.9);margin-left:-4px}.content-item .project-item .icon-bar-publish[data-v-73fa4d0d]{position:absolute;right:5px;bottom:5px;color:#2d8cf0;transform:scale(.9)}.content-item .project-item .project-name[data-v-73fa4d0d]{text-align:center;padding:6px 0 8px 0;font-size:14px;overflow:hidden;text-overflow:ellipsis}.item-header[data-v-73fa4d0d]{font-size:14px;margin:10px 25px;font-weight:700;padding-left:5px;border-left:3px solid #2d8cf0}.page-bar[data-v-73fa4d0d]{padding:0 30px;margin-bottom:30px}.no-data[data-v-73fa4d0d]{text-align:center;padding:20px}.queue-manager-status[data-v-73fa4d0d]{position:relative;width:100%;height:10px;display:flex;align-items:center;font-size:10px;border-radius:10px;background-image:linear-gradient(60deg,transparent,transparent .8rem,#58affb 0,#58affb 1.6rem,transparent 0,transparent 2.4rem,#58affb 0);background-size:21px 27px;box-shadow:1px 1px 5px rgba(88,175,251,.6);-webkit-animation:process-data-v-73fa4d0d .8s linear infinite;animation:process-data-v-73fa4d0d .8s linear infinite;background-color:#f7f7f7}.queue-manager-status[data-v-73fa4d0d]:after{content:"";position:absolute;top:0;left:0;right:0;bottom:0;height:100%;border-radius:10px;background-image:linear-gradient(180deg,rgba(88,175,251,.4),rgba(88,175,251,.4) 15%,transparent 60%,rgba(88,175,251,.4))}.queue-manager-status .queue-manager-status-busy[data-v-73fa4d0d]{position:absolute;left:0;background:#19be6b;height:100%;border-radius:10px;z-index:1}.queue-manager-status .queue-manager-status-idle[data-v-73fa4d0d]{background:#19be6b;height:100%;border-radius:10px;position:absolute;z-index:0}.queue-manager-status .queue-manager-status-label[data-v-73fa4d0d]{position:absolute;right:6px;color:#fff}@-webkit-keyframes process-data-v-73fa4d0d{0%{background-position:0 0}to{background-position:20px 0}}@keyframes process-data-v-73fa4d0d{0%{background-position:0 0}to{background-position:20px 0}}
+
+/*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */.we-tag .we-tag-content{background-color:#ecf5ff;display:inline-block;height:32px;padding:0 10px;line-height:30px;color:#409eff;border:1px solid #d9ecff;border-radius:4px;white-space:nowrap;margin-right:10px;margin-bottom:4px}.we-tag .we-tag-content .we-input-label{display:inline-block}.we-tag .we-tag-content .we-tag-content-close{cursor:pointer;font-size:16px;border-radius:50%;text-align:center;height:16px;width:16px;line-height:16px;vertical-align:middle;position:relative;top:-1px;right:-1px}.we-tag .we-tag-content .we-tag-content-close:hover{color:#fff;background-color:#409eff}.we-tag .we-tag-add-btn{display:inline-block;height:32px;line-height:30px;padding:0 10px;border:1px solid #dcdfe6;border-radius:3px;background:#fff;white-space:nowrap;color:#606266;font-weight:500;cursor:pointer}.we-tag .we-tag-add-btn:hover{color:#409eff;border-color:#c6e2ff;background-color:#ecf5ff}.we-tag .we-tag-add-input{height:32px;line-height:30px;border:1px solid #409eff;width:80px;border-radius:4px;padding:0 10px;color:#606266}.buttom-box[data-v-18b985bc]{display:flex;justify-content:space-around;align-items:center}.version-content[data-v-18b985bc]{max-height:500px;overflow-y:auto}
+
+/*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ *//*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */.entry[data-v-ce1cef5e]{font-size:16px;height:120px;line-height:120px;background:#515a6e;margin:10px 30px 10px 10px;color:#fff;text-align:center;cursor:pointer}.entry:hover .icon-blod[data-v-ce1cef5e],.entry[data-v-ce1cef5e]:hover{font-weight:600}.no-data-bgc[data-v-ce1cef5e]{font-size:14px;position:absolute;top:0;bottom:40px;display:flex;flex-direction:column;align-items:center;justify-content:center}.no-data-bgc .no-data-img[data-v-ce1cef5e]{width:200px;margin-top:150px}.no-data-bgc .bg-text[data-v-ce1cef5e]{width:60%;text-align:left;display:block;line-height:40px}.no-data-bgc .bg-text.weight[data-v-ce1cef5e]{margin-top:10px;font-weight:700}.no-data-bgc .bg-text.indent[data-v-ce1cef5e]{text-indent:2em}.icon-blod[data-v-ce1cef5e]{margin-right:2px}.sort-icon[data-v-ce1cef5e]{margin-top:10px;margin-right:8%;float:right;color:#2d8cf0;cursor:pointer}.icon[data-v-ce1cef5e]{margin-left:5px;color:#2d8cf0}.header-search[data-v-ce1cef5e]{padding:0 35px;overflow:hidden}.header-search .search-input[data-v-ce1cef5e]{width:200px}.page-bgc[data-v-ce1cef5e]{background-color:#f7f7f7;background:#fff}.page-bgc .page-bgc-header[data-v-ce1cef5e]{padding:10px 25px 0}.page-bgc .header-title[data-v-ce1cef5e]{font-size:14px;font-weight:700;padding-left:5px;border-left:3px solid #2d8cf0}.page-bgc .header-info[data-v-ce1cef5e]{padding:10px 0 10px 20px}.page-bgc .header-info p[data-v-ce1cef5e]{line-height:24px}.page-bgc .project-type[data-v-ce1cef5e]{padding:10px 0}.page-bgc .project-type .project-type-module[data-v-ce1cef5e]{width:calc(50% - 60px);min-width:400px;display:inline-block;vertical-align:top;margin:0 30px;background:#fff;padding:10px 0}.page-bgc .project-type .project-type-header[data-v-ce1cef5e]{line-height:30px;padding:0 10px}.page-bgc .project-type .project-type-header .project-type-header-more[data-v-ce1cef5e]{display:inline}.page-bgc .project-type .project-type-header .project-type-header-label[data-v-ce1cef5e]{font-size:14px;display:inline-block;margin:0 5px;font-weight:900}.page-bgc .project-type .project-type-header .project-type-header-help[data-v-ce1cef5e]{display:inline-block;margin-left:20px;text-decoration:underline;cursor:pointer}.page-bgc .project-type .project-type-header .project-type-header-help .help[data-v-ce1cef5e]{font-size:14px}.page-bgc .project-type .project-type-header .project-type-header-help[data-v-ce1cef5e]:hover{color:#2d8cf0}.page-bgc .project-type .project-type-header .project-type-header-help-icon[data-v-ce1cef5e]{float:right;margin-top:8px;margin-right:2px}.page-bgc .project-type .project-type-more[data-v-ce1cef5e]{overflow-y:auto;background:#f7f7f7;width:420px;height:140px;margin:10px 20px 0}.page-bgc .project-type .project-type-more p[data-v-ce1cef5e]{line-height:20px}.page-bgc .project-type .en[data-v-ce1cef5e]{background:url(../img/appInfo_en.57b9b67e.png) no-repeat;background-size:contain}.page-bgc .project-type .cn[data-v-ce1cef5e]{background:url(../img/appInfo_zh.f0125d3a.png) no-repeat;background-size:contain}.page-bgc .project-type .project-type-list[data-v-ce1cef5e]{display:flex;align-items:center;width:520px;flex-wrap:wrap;line-height:18px;padding-left:10px;padding-top:10px}.page-bgc .project-type .project-type-list .project-type-list-item-wrap[data-v-ce1cef5e]{width:160px;display:flex;align-items:center;height:60px;margin:0 10px 0 0;padding:4px 8px;cursor:pointer}.page-bgc .project-type .project-type-list .project-type-list-item-wrap[data-v-ce1cef5e]:hover{box-shadow:0 2px 12px 0 rgba(0,0,0,.2);border-radius:4px}.page-bgc .project-type .project-type-list .project-type-list-item-wrap .project-type-list-icon[data-v-ce1cef5e]{font-size:30px}.page-bgc .project-type .project-type-list .project-type-list-item-wrap .project-type-list-img[data-v-ce1cef5e]{width:30px;height:30px}.page-bgc .project-type .project-type-list .project-type-list-item-wrap .project-type-list-item[data-v-ce1cef5e]{margin-left:8px;position:relative}.page-bgc .project-type .project-type-list .project-type-list-item-wrap .project-type-list-item .project-type-list-item-title[data-v-ce1cef5e]{width:110px;color:#2d8cf0;font-weight:700;font-size:14px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.page-bgc .project-type .project-type-list .project-type-list-item-wrap .project-type-list-item .project-type-list-item-sub[data-v-ce1cef5e]{width:110px;font-size:10px;color:#999;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.radio-box .ivu-radio .ivu-radio-inner[data-v-ce1cef5e]{border:1px solid #2d8cf0}.expand-row[data-v-d9be04f4]{margin:10px 0}.expand-key[data-v-d9be04f4]{font-weight:700}
+
+/*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ *//*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */.resource{position:relative}.resource .resource-refresh{position:absolute;right:10px;top:4px}.resource .ivu-table th{background-color:#2d8cf0;color:#fff}.resource .resource-loading{width:100%;position:absolute;z-index:1000;display:flex;justify-content:center;align-items:center;top:0;background-color:hsla(0,0%,100%,.8)}.resource .resource-loading .resource-loading-icon{-webkit-animation:ani-demo-spin 1s linear infinite;animation:ani-demo-spin 1s linear infinite}
+
+/*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */.circle-progress{position:relative;display:inline-block}.circle-progress .circle-progress__track{stroke:#e5e9f2;stroke-width:8;fill:none}.circle-progress .circle-progress__path{stroke-linecap:round;stroke:orange;stroke-width:8;fill:none;stroke-dasharray:299.08px,299.08px;stroke-dashoffset:0;transition:stroke-dashoffset .6s ease 0s,stroke .6s ease 0s}.circle-progress .circle-progress__perent{position:absolute;top:calc(50% - 20px);width:100%;display:block;text-align:center;font-size:16px}.circle-progress .circle-progress__text{position:absolute;top:calc(50% + 4px);font-size:10px}.circle-progress .circle-progress__text,.circle-progress .circle-progress__title{width:100%;display:block;text-align:center}
+
+/*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ *//*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */.resource-simple-content{height:400px}.resource-simple-content .queue-manager{position:relative;width:100%;height:100%}.resource-simple-content .queue-manager .queue-manager-select-warpper{position:absolute;top:0;right:0}.resource-simple-content .queue-manager .queue-manager-select-warpper .queue-manager-select{width:200px}.resource-simple-content .queue-manager .queue-manager-title{height:32px;line-height:32px;font-size:14px;font-weight:700}.resource-simple-content .queue-manager .queue-manager-used{margin-bottom:10px}.resource-simple-content .queue-manager .queue-manager-used .queue-manager-circle-warpper{padding:20px;display:flex;justify-content:center}.resource-simple-content .queue-manager .queue-manager-used .queue-manager-circle-warpper .queue-manager-circle{margin-right:30px}.resource-simple-content .queue-manager .queue-manager-top .queue-manager-top-content{height:180px;overflow-y:auto}.resource-simple-content .queue-manager .queue-manager-top .queue-manager-item{height:20px;line-height:20px;display:flex;margin:8px 0 8px 20px}.resource-simple-content .queue-manager .queue-manager-top .queue-manager-item span{display:inline-block}.resource-simple-content .queue-manager .queue-manager-top .queue-manager-item .queue-manager-name{width:80px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.resource-simple-content .queue-manager .queue-manager-top .queue-manager-item .queue-manager-total{margin-left:10px}.resource-simple-content .queue-manager .queue-manager-top .queue-manager-item .queue-manager-status{position:relative;width:400px;height:20px;display:flex;align-items:center;font-size:10px;background:#f7f7f7;border-radius:10px}.resource-simple-content .queue-manager .queue-manager-top .queue-manager-item .queue-manager-status .queue-manager-status-busy{position:absolute;left:0;background:#f90;height:100%;border-radius:10px;z-index:1}.resource-simple-content .queue-manager .queue-manager-top .queue-manager-item .queue-manager-status .queue-manager-status-idle{background:#19be6b;height:100%;border-radius:10px;position:absolute;z-index:0}.resource-simple-content .queue-manager .queue-manager-top .queue-manager-item .queue-manager-status .queue-manager-status-label{position:absolute;right:6px;color:#fff}.resource-simple-content .job-manager{height:400px;overflow-y:auto}.resource-simple-content .job-manager .job-manager-empty{display:flex;justify-content:center;align-items:center;height:100%}.resource-simple-content .job-manager .job-manager-type .job-manager-title{height:32px;line-height:32px;font-size:14px;font-weight:700}.resource-simple-content .job-manager .job-manager-type .job-manager-item-wrapper{display:flex;align-items:center;height:40px;line-height:40px;margin:2px 10px 2px 20px;position:relative;cursor:pointer;background:#f7f7f7;border:1px solid #fff}.resource-simple-content .job-manager .job-manager-type .job-manager-item-wrapper.actived,.resource-simple-content .job-manager .job-manager-type .job-manager-item-wrapper:hover{background:#fff}.resource-simple-content .job-manager .job-manager-type .job-manager-item-wrapper .job-manager-item-icon{padding:10px}.resource-simple-content .job-manager .job-manager-type .job-manager-item-wrapper .job-manager-item-icon:before{font-size:24px}.resource-simple-content .job-manager .job-manager-type .job-manager-item-wrapper .job-manager-item-label{font-weight:700;width:380px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.resource-simple-content .job-manager .job-manager-type .job-manager-item-wrapper .job-manager-item-progress-label{position:absolute;right:40px}.resource-simple-content .job-manager .job-manager-type .job-manager-item-wrapper .job-manager-item-progress{display:inline-block;position:absolute;top:-1px;left:0;height:40px;background:rgba(45,140,240,.3)}.resource-simple-content .job-manager .job-manager-type .job-manager-item-wrapper .job-manager-item-active{background:rgba(0,128,0,.57);color:#fff;position:absolute;top:-1px;left:0}.resource-simple-content .job-manager .job-manager-type .job-manager-item-wrapper .job-manager-item-active:before{font-size:10px}.resource-simple-content .job-manager .job-manager-type .job-manager-item-wrapper .job-manager-item-close{position:absolute;right:16px}.resource-simple-content .job-manager .job-manager-type .job-manager-item-wrapper .job-manager-item-close:hover{color:rgba(45,140,240,.3)}.task-manager{padding:0 10px}.task-manager .task-content{border:1px solid #e8eaec;box-shadow:0 1px 1px 0 rgba(0,0,0,.1);border-radius:10px;color:#515a6e;margin:5px 0;margin-bottom:15px;padding:0 0 10px}.task-manager .task-content .item-title{font-size:14px;background:#2d8cf0;padding:6px 20px;border-radius:10px 0;display:inline-block;color:#fff}.task-manager .manager-li{padding:6px 5px 6px 30px;display:flex;font-size:12px;margin:6px 0;align-items:center}.task-manager .manager-li:hover{background:#f7f7f7}.task-manager .manager-li .manager-li-title{text-align:center;margin-right:10px;line-height:32px;box-sizing:border-box;display:flex;align-items:center;border:1px solid #2d8cf0;border-left-width:10px;border-radius:4px;cursor:pointer}.task-manager .manager-li .manager-li-title.init{border-color:#808695}.task-manager .manager-li .manager-li-title.schedule{border-color:rgba(243,133,243,.753)}.task-manager .manager-li .manager-li-title .item-label{width:90px;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;display:inline-block;text-decoration:underline}.task-manager .manager-li .item-center{width:500px}.task-manager .manager-li .item-center .sql-text{max-width:550px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.task-manager .manager-li .item-delete{flex-basis:30px;font-weight:700;font-size:20px;text-align:center;margin-left:10px;cursor:pointer}.header-tab{display:flex;justify-content:center}.resource-simple-footer{display:flex;justify-content:flex-end;align-items:center}.resource-simple-footer.legendShow{justify-content:space-between}.resource-simple-footer .footer-legend .footer-legend-point{width:10px;height:10px;border-radius:50%;display:inline-block}.resource-simple-footer .footer-legend .point-init{background-color:#808695}.resource-simple-footer .footer-legend .point-schedule{background-color:rgba(243,133,243,.753)}.resource-simple-footer .footer-legend .point-running{background-color:#2d8cf0}.resource-simple-footer .footer-legend .point-idle{background-color:#19be6b}.resource-simple-footer .footer-legend .point-busy{background-color:#f90}.resource-simple-footer .footer-legend .point-starting{background-color:#2d8cf0}.resource-simple-footer .footer-legend .footer-legend-label{margin-right:10px;display:inline-block}.engine-box{height:100%;overflow-y:auto;position:relative}.engine-box .no-data{font-size:14px;font-weight:600;font-family:"\5B8B\4F53";color:#515a6e;position:absolute;top:30%;left:50%;transform:translateX(-50%)}.engine-box::-webkit-scrollbar{width:6px;height:1px}.engine-box::-webkit-scrollbar-thumb{border-radius:6px;box-shadow:inset 0 0 5px rgba(0,0,0,.2);background:#f7f7f7}.engine-box::-webkit-scrollbar-track{border-radius:6px;box-shadow:inset 0 0 5px rgba(0,0,0,.2);background:#fff}.engine-content{padding:0 15px}.engine-content .engine-header-bar{display:flex;justify-content:space-between;align-items:center;margin-top:10px;margin-bottom:10px}.engine-content .engine-header-bar .data-type-title{font-size:18px;font-weight:700}.engine-content .engine-header-bar .classify{flex-basis:30%;display:flex;justify-content:space-around;align-items:center}.engine-content .engine-header-bar .classify>span{margin-right:5px;width:40px;font-size:14px}.engine-content .engine-list{display:flex;align-items:center;padding-left:30px}.engine-content .engine-list .engline-name{flex-basis:62px;font-size:16px;margin-right:20px}.engine-content .engine-list .engine-ul{flex:1;display:flex;justify-content:flex-start;align-items:center;flex-wrap:wrap}.engine-content .engine-list .engine-ul .engine-li{border:1px solid #dcdee2;border-radius:6px;padding:5px;position:relative;width:60px;height:60px;margin:8px 20px 8px 0;box-sizing:border-box;display:flex;justify-content:center;align-items:center}.engine-content .engine-list .engine-ul .engine-li:hover{background-color:#f7f7f7;border-radius:6px;cursor:pointer}.engine-content .engine-list .engine-ul .engine-li.active.yellow{border:1px solid #f4cf2a;background-color:#f7f7f7}.engine-content .engine-list .engine-ul .engine-li.active.green{border:1px solid #19be6b;background-color:#f7f7f7}.engine-content .engine-list .engine-ul .engine-li.active.blue{border:1px solid #2d8cf0;background-color:#f7f7f7}.engine-content .engine-list .engine-ul .engine-li .engine-icon:before{font-size:40px}.engine-content .engine-list .engine-ul .engine-li .engine-icon.yellow:before{color:#f4cf2a}.engine-content .engine-list .engine-ul .engine-li .engine-icon.green:before{color:#19be6b}.engine-content .engine-list .engine-ul .engine-li .engine-icon.blue:before{color:#2d8cf0}.engine-content .engine-list .engine-ul .engine-li .engine-right{position:absolute;top:0;left:0;border-radius:0 0 5px 0;font-weight:700}.engine-content .engine-list .engine-ul .engine-li .engine-right:before{color:#f7f7f7}.engine-content .engine-list .engine-ul .engine-li .engine-right.yellow{background-color:#f4cf2a}.engine-content .engine-list .engine-ul .engine-li .engine-right.green{background-color:#19be6b}.engine-content .engine-list .engine-ul .engine-li .engine-right.blue{background-color:#2d8cf0}
+
+/*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */.we-variable{border:1px solid #eee;box-shadow:0 1px 1px 0 rgba(0,0,0,.1);border-radius:10px 10px 3px 3px;color:#515a6e;margin:5px 0}.we-variable .we-variable-header{height:30px;line-height:30px;display:flex;align-items:center;justify-content:space-between}.we-variable .we-variable-header .we-variable-header-title{font-size:14px;background:#2d8cf0;padding:2px 12px;border-radius:10px 0;display:inline-block;color:#fff}.we-variable .we-variable-header .we-variable-header-control{display:inline-block;padding:0 6px;color:#ccc;cursor:pointer}.we-variable .we-variable-content{padding:10px}.we-variable .we-variable-content .we-variable-content-item{margin:8px 0;line-height:24px;display:flex;align-items:center}@media only screen and (max-width:1480px){.we-variable .we-variable-content .we-variable-content-item .we-variable-content-label-group{display:flex!important;flex-direction:column;margin-right:20px;align-items:flex-end}}.we-variable .we-variable-content .we-variable-content-item .we-variable-content-label-group{width:30%;display:inline-block;text-align:right;margin-right:20px}.we-variable .we-variable-content .we-variable-content-item .we-variable-content-label{margin:0 6px}.we-variable .we-variable-content .we-variable-content-item .we-variable-content-input{width:70%;min-width:40%;border:none;border:1px solid #dcdee2;border-radius:4px;background-color:#fff;padding:4px 7px;line-height:1.5;transition:border .2s ease-in-out,background .2s ease-in-out,box-shadow .2s ease-in-out;position:relative;cursor:text;height:34px;outline:none}.we-variable .we-variable-content .we-variable-content-item .we-variable-content-input.un-valid{border:1px solid red}.we-variable .we-variable-content .we-variable-content-item .we-variable-content-input[disabled]{background-color:#f3f3f3;opacity:1;cursor:not-allowed;color:#ccc}.we-variable .we-variable-content .we-variable-content-item .we-variable-content-icon{cursor:pointer}.we-variable .we-variable-content .we-variable-content-item .we-warning-bar{color:red;padding-left:20px;display:flex;justify-content:center;align-items:center;white-space:nowrap}.we-variable .we-variable-bottom{padding:10px;display:flex;align-items:center;justify-content:space-between;cursor:pointer}.we-variable .we-variable-bottom .we-variable-bottom-add{color:#2d8cf0}
+
+/*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */.setting{display:flex;flex-direction:row}.setting .setting-menu{overflow-y:auto}.setting .setting-content{margin-left:20px;width:100%}.setting .setting-content .setting-content-header{text-align:right;margin-right:10px;margin-bottom:10px}.setting .setting-content .setting-content-header .setting-content-btn{padding:5px 40px}.setting .setting-content .setting-content-variable{overflow-y:auto}.visual-analysis{height:100%}.visual-analysis iframe{width:100%;height:100%}
+
+/*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */.field-table .field-table-body,.field-table .field-table-header{display:flex;border:1px solid #dcdee2;min-height:46px;justify-content:center;align-items:center}.field-table .field-table-header{background-color:#5e9de0;color:#fff;font-weight:700;margin-top:10px;border:none}.field-table .field-table-header .field-table-header-wrap{width:calc(100% - 18px);display:flex}.field-table .field-table-body{border-top:none;background:#fff}.field-table .field-table-body.actived,.field-table .field-table-body:hover{background-color:#ebf7ff}.field-table .field-table-item{padding:0 10px;display:inline-block;height:100%;text-align:center}.field-table .field-table-item.nowrap{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.field-table .field-table-item .field-table-item-tag{display:inline-block;width:100%;height:32px;line-height:1.5;padding:4px 7px;font-size:12px;border:1px solid #dcdee2;border-radius:4px;color:#515a6e;background-color:#fff;background-image:none;position:relative;cursor:pointer}.field-table .field-table-item .field-table-item-tag:hover{border-color:#57a3f3}.field-table .field-table-item .field-table-item-tag .field-table-item-tag-item{height:24px;line-height:22px;max-width:99%;display:inline-block;padding:0 8px;border:1px solid #e8eaec;border-radius:3px;background:#f7f7f7;font-size:12px;vertical-align:middle;opacity:1;overflow:hidden;cursor:pointer}.field-table .field-table-item .field-table-item-tag .field-table-item-tag-arrow{font-size:14px;color:#808695;position:absolute;right:8px;top:8px}.field-table .field-table-item-action{min-width:60px;display:inline-block;text-align:center}.field-table .field-table-index{width:5%;min-width:50px}.field-modal{font-size:12px}.field-modal .field-modal-li{height:28px;line-height:28px;display:flex;align-items:center}.field-modal .field-modal-li-label{margin-left:10px;display:inline-block;width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;cursor:pointer}
+
+/*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ *//*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */.workbench .ivu-tabs.ivu-tabs-card{border-top:1px solid #dcdee2}.workbench .ivu-tabs.ivu-tabs-card .ivu-tabs-bar .ivu-tabs-tab{margin-right:0;margin-left:-1px;border-radius:0;vertical-align:top;border-top:0;padding:5px 16px;border-color:#dcdee2!important}.workbench .ivu-tabs.ivu-tabs-card .ivu-tabs-bar .ivu-tabs-tab.ivu-tabs-tab-active{border-top:2px solid #2d8cf0!important}.workbench-tabs{position:relative;height:100%;overflow:hidden;box-sizing:border-box}.workbench-tabs .workbench-tab-wrapper{display:flex;border-top:1px solid #dcdcdc;border-bottom:1px solid #dcdcdc}.workbench-tabs .workbench-tab-wrapper.full-screen{position:fixed;left:0;right:0;top:0;height:33px;z-index:1200}.workbench-tabs .workbench-tab-wrapper .workbench-tab{flex:1;display:flex;flex-direction:row;flex-wrap:nowrap;justify-content:flex-start;align-items:flex-start;height:32px;background-color:#fff;width:calc(100% - 45px);overflow:hidden}.workbench-tabs .workbench-tab-wrapper .workbench-tab .workbench-tab-item{position:relative;height:32px;line-height:32px;background-color:#f7f7f7;color:#17233d;cursor:pointer;min-width:100px;max-width:200px;overflow:hidden;margin-right:2px;border:1px solid #eee}.workbench-tabs .workbench-tab-wrapper .workbench-tab .workbench-tab-item.active{margin-top:1px;height:31px;background-color:#fff;color:#2d8cf0;border-radius:4px 4px 0 0;border:1px solid #dcdee2;border-bottom:2px solid #2d8cf0;line-height:30px}.workbench-tabs .workbench-tab-wrapper .workbench-tab-control{flex:0 0 45px;text-align:right;background-color:#fff;border-left:1px solid #e8eaec}.workbench-tabs .workbench-tab-wrapper .workbench-tab-control .ivu-icon{font-size:14px;margin-top:8px;margin-right:2px;cursor:pointer}.workbench-tabs .workbench-tab-wrapper .workbench-tab-control .ivu-icon:hover{color:#2d8cf0}.workbench-tabs .workbench-tab-wrapper .workbench-tab-button{flex:0 0 30px;text-align:center;background-color:#fff}.workbench-tabs .workbench-tab-wrapper .workbench-tab-button .ivu-icon{font-size:14px;margin-top:8px;cursor:pointer}.workbench-tabs .workbench-container{height:calc(100% - 32px)}.workbench-tabs .workbench-container.node,.workbench-tabs .workbench-container .workbench-log-view{height:100%}.workbench-tabs .workbench-container .workbench-log-view .log-tools{height:36px;line-height:36px;padding-left:10px;background:#f7f7f7;position:relative;border-bottom:2px solid #dcdee2;overflow:hidden;margin-bottom:-2px}.workbench-tabs .workbench-container .workbench-log-view .log-tools .log-tools-control{display:inline-block;position:absolute;top:2px}.workbench-tabs .workbench-container .workbench-log-view .log-tools .log-tools-control .log-tabs{display:inline-block;position:absolute}.workbench-tabs .workbench-container .workbench-log-view .log-tools .log-tools-control .log-search{width:100px;position:absolute;left:350px;top:5px;font-size:12px}.workbench-tabs .workbench-container .workbench-log-view .log-tools .log-tools-control .err-badge{background:#ed4014!important}.workbench-tabs .workbench-container .workbench-log-view .log-tools .log-tools-control .warn-badge{background:#f4cf2a!important}.workbench-tabs .workbench-container .workbench-history{height:100%}.workbench-tabs .workbench-container .workbench-history .workbench-history-table{border:none}.workbench-tabs .workbench-container .workbench-history .workbench-history-table .ivu-table th{background-color:#2d8cf0;color:#fff}.workbench-tabs .workbench-container .workbench-history .workbench-history-page{display:flex;align-items:center;justify-content:center;height:30px;margin-top:5px}.workbench-tabs .workbench-container .workbench-history .history-failed{color:#ed4014}.workbench-tabs .workbench-container .workbench-history .history-control .ivu-table-cell{padding:0}.workbench-tabs .workbench-container .progress{background:#fff;height:100%}.workbench-tabs .workbench-container .progress .ivu-table-wrapper{border:none;height:100%}.workbench-tabs .workbench-container .progress .ivu-table-wrapper .ivu-table th{background-color:#2d8cf0;color:#fff}.workbench-tabs .workbench-container .progress-wrap{position:relative;width:100%;height:10px;background:#f3f3f3;border-radius:100px}.workbench-tabs .workbench-container .progress-item{position:absolute;top:0;left:0;height:100%;transition:all .2s linear;border-radius:10px}.workbench-tabs .workbench-container .progress-success{background:#19be6b}.workbench-tabs .workbench-container .progress-failed{background:#ed4014}.workbench-tabs .workbench-container .progress-waiting{background:#2d8cf0}.workbench-tabs .workbench-container .progress-waiting:after{content:"";opacity:0;position:absolute;top:0;left:0;right:0;bottom:0;background:#fff;border-radius:10px;-webkit-animation:ivu-progress-active 2s ease-in-out infinite;animation:ivu-progress-active 2s ease-in-out infinite}.workbench-tabs .workbench-container .progress-text{font-size:12px;margin-right:10px}.workbench-tabs .workbench-container .total-progress{padding:6px 0;color:#17233d}.workbench-tabs .workbench-container .total-progress .title{text-align:center}.workbench-tabs .workbench-container .progress-costtime{color:#19be6b}@-webkit-keyframes ivu-progress-active{0%{opacity:.3;width:0}to{opacity:0;width:100%}}@keyframes ivu-progress-active{0%{opacity:.3;width:0}to{opacity:0;width:100%}}.workbench-tabs .workbench-container .we-steps .we-steps-row-first{width:100%;padding:20px 0 10px;display:flex;align-items:center}.workbench-tabs .workbench-container .we-steps .we-steps-row-first .we-steps-title{text-align:center;color:#17233d}.workbench-tabs .workbench-container .we-steps .we-steps-row-first .we-steps-child-col{height:50px;display:inline-flex;justify-content:flex-start;align-items:center}.workbench-tabs .workbench-container .we-steps .we-steps-row-first .we-steps-child-col .we-steps-child{display:flex;align-items:center}.workbench-tabs .workbench-container .we-steps .we-steps-row-first .we-steps-child-col .we-steps-child .we-steps-child-wrapper{display:inline-flex;flex-direction:column;align-items:center;padding:0 8px}.workbench-tabs .workbench-container .we-steps .we-steps-row-first .we-steps-child-col .we-steps-child .we-steps-child-wrapper .we-steps-circle{width:20px;height:20px;border-radius:10px;display:inline-block;background:#808695;text-align:center}.workbench-tabs .workbench-container .we-steps .we-steps-row-first .we-steps-child-col .we-steps-child .we-steps-child-wrapper .we-steps-circle .we-steps-circle-checkmark{color:#fff}.workbench-tabs .workbench-container .we-steps .we-steps-row-first .we-steps-child-col .we-steps-child .we-steps-child-wrapper .we-steps-circle.loading{background:orange}.workbench-tabs .workbench-container .we-steps .we-steps-row-first .we-steps-child-col .we-steps-child .we-steps-child-wrapper .we-steps-circle.completed{background:#67c23a}.workbench-tabs .workbench-container .we-steps .we-steps-row-first .we-steps-child-col .we-steps-child .we-steps-child-wrapper .we-steps-circle.error{background:#ed4014}.workbench-tabs .workbench-container .we-steps .we-steps-row-first .we-steps-child-col .we-steps-child .we-steps-child-wrapper .we-steps-circle.cancelled{background:#ddd}.workbench-tabs .workbench-container .we-steps .we-steps-row-first .we-steps-child-col .we-steps-child .we-steps-child-wrapper .we-steps-label{display:inline-block;margin-top:6px}.workbench-tabs .workbench-container .we-steps .we-steps-row-first .we-steps-child-col .we-steps-child .we-steps-child-wrapper .we-steps-label.ellipsis{font-weight:700;font-size:19px;display:inline-block;line-height:17px;height:17px}.workbench-tabs .workbench-container .we-steps .we-steps-row-first .we-steps-child-col .we-steps-child .we-steps-child-wrapper .we-steps-label.loading{color:orange}.workbench-tabs .workbench-container .we-steps .we-steps-row-first .we-steps-child-col .we-steps-child .we-steps-child-wrapper .we-steps-label.completed{color:#67c23a}.workbench-tabs .workbench-container .we-steps .we-steps-row-first .we-steps-child-col .we-steps-child .we-steps-child-wrapper .we-steps-label.error{color:#ed4014}.workbench-tabs .workbench-container .we-steps .we-steps-row-first .we-steps-child-col .we-steps-child .we-steps-child-wrapper .we-steps-label.cancelled{color:rgba(243,133,243,.753)}.workbench-title{position:relative;display:flex;align-items:center;justify-content:flex-start;padding:0 16px;padding-right:30px;font-size:14px}.workbench-title .workbench-title-logo{font-size:16px;margin-right:4px}.workbench-title .workbench-title-text{display:block;flex:1;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.workbench-title .workbench-title-button{position:absolute;right:10px;top:0;font-size:14px}.workbench-title .workbench-title-button .fi-radio-on2{font-size:12px}.workbench-body{height:100%}.workbench-body .table-detail{height:100%;background:#f8f8f9;padding:16px 10px 10px 16px}.workbench-body .table-detail .table-detail-tabs{height:100%}.workbench-body .table-detail .table-detail-tabs .ivu-tabs-bar{margin-bottom:10px}.workbench-body .table-detail .table-detail-tabs .ivu-tabs-content{height:100%}.workbench-body .table-detail .table-detail-tabs .basic-card{margin-bottom:10px;height:calc(100% - 52px);overflow:hidden}.workbench-body .table-detail .table-detail-tabs .basic-card .basic-card-item{display:inline-flex;width:50%;height:36px;padding-left:10px;align-items:center}.workbench-body .table-detail .table-detail-tabs .basic-card .basic-card-item.comment{height:42px;align-items:start}.workbench-body .table-detail .table-detail-tabs .basic-card .basic-card-item .basic-card-item-title{display:inline-block;width:100px;font-weight:700}.workbench-body .table-detail .table-detail-tabs .basic-card .basic-card-item .basic-card-item-value{display:inline-block;width:calc(100% - 104px);overflow:hidden}.workbench-body .table-detail .table-detail-tabs .basic-card .basic-card-item .basic-card-item-value.comment{overflow-y:auto;height:100%}.workbench-body .table-detail .table-detail-tabs .field-table{height:calc(100% - 52px);overflow:hidden}.workbench-body .table-detail .table-detail-tabs .field-table .field-table-body,.workbench-body .table-detail .table-detail-tabs .field-table .field-table-header{display:flex;border:1px solid #dcdee2;height:46px;line-height:46px}.workbench-body .table-detail .table-detail-tabs .field-table .field-table-header{background-color:#5e9de0;color:#fff;font-weight:700;margin-top:10px;border:none}.workbench-body .table-detail .table-detail-tabs .field-table .field-table-body{border-bottom:none;background:#fff}.workbench-body .table-detail .table-detail-tabs .field-table .field-table-item{padding:0 10px;display:inline-block;height:100%;text-align:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.workbench-body .table-detail .table-detail-tabs .field-table .field-table-index{width:5%;min-width:50px}.workbench-body .table-detail .table-detail-tabs .field-table .field-table-name{width:15%}.workbench-body .table-detail .table-detail-tabs .field-table .field-table-type{width:10%;min-width:70px}.workbench-body .table-detail .table-detail-tabs .field-table .field-table-alias{width:15%}.workbench-body .table-detail .table-detail-tabs .field-table .field-table-part,.workbench-body .table-detail .table-detail-tabs .field-table .field-table-primary,.workbench-body .table-detail .table-detail-tabs .field-table .field-table-rule{width:10%;min-width:70px}.workbench-body .table-detail .table-detail-tabs .field-table .field-table-comment{width:25%}.workbench-body .table-detail .table-detail-tabs .statistics{height:calc(100% - 52px);overflow:hidden}.workbench-body .table-detail .table-detail-tabs .statistics .statistics-card{height:100%}.workbench-body .table-detail .table-detail-tabs .statistics .statistics-card .ivu-card-body{height:calc(100% - 52px)}.workbench-body .table-detail .table-detail-tabs .statistics .statistics-card .statistics-card-item{display:inline-flex;width:100%;height:36px;line-height:36px;padding-left:10px;align-items:center}.workbench-body .table-detail .table-detail-tabs .statistics .statistics-card .statistics-card-item .statistics-card-item-title{display:inline-block;width:100px;font-weight:700}.workbench-body .table-detail .table-detail-tabs .statistics .statistics-card .statistics-card-item .statistics-card-item-value{display:inline-block;width:calc(100% - 104px);overflow:hidden}.workbench-body .table-detail .table-detail-tabs .statistics .statistics-card .statistics-card-label{margin-left:4px}.workbench-body .table-detail .table-detail-tabs .statistics .statistics-card .statistics-card-tree{overflow-y:auto;height:100%;margin-left:20px}.workbench-body .create-table-view{height:100%;overflow-y:auto}.workbench-body .create-table-view .create-table-view-button-group{padding:20px;text-align:right}.workbench-body .create-table-view .create-table-view-button-group button{margin-right:10px}.workbench-body .create-table-view .create-table-step-first .basic-card .basic-card-form .ivu-form-item{display:inline-block;width:50%}.workbench-body .create-table-view .create-table-step-first .create-table-btn-group{float:right;margin-top:10px}.workbench-body .create-table-view .create-table-step-first .create-table-btn-group button{margin-right:20px}.workbench-body .create-table-view .create-table-second-step .data-source{display:block;background:#fff;border-radius:4px;font-size:14px;position:relative;transition:all .2s ease-in-out;padding:14px 16px;line-height:1}.workbench-body .create-table-view .create-table-second-step .data-source:hover{box-shadow:0 1px 6px rgba(0,0,0,.2);border-color:#eee}.workbench-body .create-table-view .create-table-second-step .data-source .data-source-item-wrap{display:inline-block}.workbench-body .create-table-view .create-table-second-step .data-source .data-source-item-wrap .data-source-title{display:inline-block;height:20px;line-height:20px;font-size:14px;color:#17233d;font-weight:700}.workbench-body .create-table-view .create-table-second-step .data-source .data-source-item-wrap .data-source-type{margin-left:20px;width:200px}.workbench-body .create-table-view .create-table-second-step .create-table{height:50%}.workbench-body .create-table-view .create-table-second-step .create-table .field-list .field-list-title{width:1100px;height:38px;background-color:#5e9de0;color:#fff;font-weight:700;border:none;border-radius:4px 4px 0 0}.workbench-body .create-table-view .create-table-second-step .create-table .field-list .field-list-title .field-list-title-index{width:50px;display:inline-block;text-align:center}.workbench-body .create-table-view .create-table-second-step .create-table .field-list .field-list-title .field-list-title-item{display:inline-flex;margin:0 6px;text-align:center;justify-content:center;align-items:center;height:100%}.workbench-body .create-table-view .create-table-second-step .create-table .field-list .field-list-title .field-list-title-item .field-list-title-item-require{margin-right:2px}.workbench-body .create-table-view .create-table-second-step .create-table .field-list .field-list-title .field-list-title-action{width:60px;display:inline-block;text-align:center}.workbench-body .create-table-view .create-table-second-step .create-table .field-list .field-list-content{width:1100px}.workbench-body .create-table-view .create-table-second-step .create-table .field-list .field-list-content .field-list-content-item{padding:12px 0 0;border:1px solid #dcdee2;border-top:none}.workbench-body .create-table-view .create-table-second-step .create-table .field-list .field-list-content .field-list-content-item .field-list-content-item-index{width:50px;display:inline-block;text-align:center;height:54px;line-height:36px}.workbench-body .create-table-view .create-table-second-step .create-table .field-list .field-list-content .field-list-content-item .field-list-content-item-item{margin:0 6px 20px;display:inline-block;text-align:center}.workbench-body .create-table-view .create-table-second-step .create-table .field-list .field-list-content .field-list-content-item .field-list-content-action{width:60px;display:inline-block;text-align:center;margin-top:6px}.workbench-body .import-table .import-table-hive .import-table-hive-item{padding:10px 0 10px 20px}.workbench-body .import-table .import-table-hive .import-table-hive-item .import-table-hive-item-title{display:inline-block;font-weight:700;margin-right:10px}.workbench-body .import-table .import-table-hive .import-table-hive-item .import-table-hive-item-select{width:300px}.workbench-body .we-new-list-container{height:100%}.workbench-body .we-new-list{display:flex;flex-direction:row;flex-wrap:wrap;height:100%;overflow-y:auto}.workbench-body .we-new-list .business-type-script{position:relative;display:flex;flex-direction:column;width:240px;height:240px;padding:0 10px;margin:14px;overflow:hidden;transition:all .2s ease;background:#f7f7f7;border:1px solid #dcdee2}.workbench-body .we-new-list .business-type-script .we-new-list-header{flex:0 0 40px;line-height:40px;font-size:12px}.workbench-body .we-new-list .business-type-script .we-new-list-header-type{width:68px;height:28px;padding:0 5px;margin-bottom:10px;margin-right:4px;line-height:25px;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;cursor:pointer;display:inline-block;background:#f7f7f7;border:1px solid #e8eaec}.workbench-body .we-new-list .business-type-script .we-new-list-header-type:hover{color:#00c1de;background:#e5f8fb;border:1px solid #00c1de}.workbench-body .we-new-list .business-type-script .we-new-list-content{margin-bottom:10px}.workbench-body .we-new-list .business-type-script .business-type-script-name{color:#808695;display:inline-block;width:100px;text-align:right;line-height:26px}.workbench-body .we-new-list .business-type-script .business-type-script-value{color:#808695;display:inline-block;line-height:26px}.workbench-body .we-new-list .business-type-script .we-new-list-add{font-size:100px;display:flex;justify-content:center;height:180px;align-items:center;cursor:pointer}.workbench-body .we-new-list .business-type-script .we-new-list-footer{flex:0 0 34px;line-height:35px;position:absolute;bottom:0}.workbench-body .we-new-list .business-type-script .we-new-list-footer-open{color:#00c1de;cursor:pointer}.workbench-body .workbench-body-navbar{padding:0 4px;border-bottom:1px solid #dcdee2;height:32px;line-height:32px;display:flex;flex-direction:row;flex-wrap:nowrap;justify-content:flex-start;align-items:center}.workbench-body .workbench-body-navbar-group{display:flex}.workbench-body .workbench-body-navbar-item{margin:0 16px;cursor:pointer;color:rgba(81,90,110,.8)}.workbench-body .workbench-body-navbar-item.disabled{color:rgba(81,90,110,.5)}.workbench-body .workbench-body-navbar-item:hover{color:#2b85e4}.workbench-body .workbench-body-navbar-item:hover.disabled{color:rgba(81,90,110,.5)}.workbench-body .workbench-body-navbar-item .ivu-icon{font-size:16px}.workbench-body .workbench-body-navbar-item .navbar-item-name{margin-left:1px}.workbench-body .we-editor{height:calc(100% - 32px)}.workbench-body .tc{text-align:center}.log-panel{border-top:1px solid #dcdee2;background-color:#f7f7f7}.log-panel .workbench-tab-wrapper{border-top:none}.log-panel .workbench-tabs .workbench-tab .workbench-tab-item{text-align:center;border-top:none;background:#fff}.log-panel .workbench-tabs .workbench-tab .workbench-tab-item.active{border-bottom:1px solid #dcdee2;background:#f7f7f7;color:#17233d}.editor-panel .new-sidebar-spin{background-color:hsla(0,0%,100%,.1)}.editor-panel .editor{height:100%}.editor-panel .editor .editor-content{height:100%;display:flex}.editor-panel .editor .editor-content .editor-setting{width:400px;background:#f7f7f7;border-left:1px solid #dcdee2;overflow-y:auto;position:absolute;top:32px;right:0;bottom:0}.editor-panel .editor .editor-content .editor-setting .editor-setting-header{border-bottom:1px solid #e8eaec;padding:10px 16px;line-height:1;display:flex;justify-content:space-between;align-items:center}.editor-panel .editor .editor-content .editor-setting .editor-setting-header span{color:#17233d;font-size:14px}.editor-panel .editor .editor-content .editor-setting .editor-setting-header i{font-size:26px;color:#999;cursor:pointer}.editor-panel .editor .editor-content .editor-setting .setting-title-wrap{display:flex;justify-content:space-between;align-items:center;height:30px;padding-right:7px}.editor-panel .editor .editor-content .editor-setting .setting-title-wrap .setting-title{display:inline-block}.editor-panel .editor .editor-content .editor-setting .setting-title-wrap .setting-icon-add{cursor:pointer}.editor-panel .editor .editor-content .editor-setting .runtime-args{padding:10px 10px 2px;margin:10px;background:hsla(0,0%,100%,.7);border-radius:4px}.we-result-view{position:relative;width:100%;height:100%;overflow:hidden;padding-left:40px;background:#fff}.we-result-view .text-result-div{overflow:auto;padding:10px}.we-result-view .table-box{overflow:auto}.we-result-view .result-normal-table{border:none;border-right:1px solid #dcdee2;overflow:auto;min-width:100%}.we-result-view .result-normal-table .ivu-table{min-width:100%}.we-result-view .result-normal-table .ivu-table .is-null{color:#ed4014;font-style:italic}.we-result-view .html-result-div{overflow-y:auto}.we-result-view .we-page-container{position:absolute;bottom:0;left:40px;width:100%;height:42px;display:flex;align-items:center}.we-result-view .we-page-container .page{left:50%;position:relative;display:inline-block}.we-result-view .we-page-container .set{position:absolute;left:42px;top:15px;width:150px}.we-result-view .ivu-table th{background-color:#2d8cf0;color:#fff}.we-toolbar{width:40px;height:100%;position:fixed;margin-left:-40px;padding-top:10px;background:#fff;border-right:1px solid #dcdee2}.we-toolbar li{padding-bottom:20px;text-align:center;cursor:pointer}.we-toolbar span{display:block;line-height:24px}.we-toolbar .v-toolbar-icon{width:40px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.results-export .results-export-content-help{cursor:pointer;font-size:14px}.table-row .table-row-header{display:flex;justify-content:space-between;align-items:center;padding-right:26px;padding-left:6px}.table-row .table-row-header .table-row-input{width:200px;float:right}.table-row .table-row-table .ivu-table th{background-color:#2d8cf0;color:#fff}.table-row .table-row-table .ivu-table .is-null{color:#ed4014;font-style:italic}.we-poptip{padding:12px;line-height:28px}.we-poptip .confirm{margin-top:10px}.we-poptip .title{margin:10px 0;text-align:center}.ivu-modal .modal-title{font-size:16px}.ivu-modal .modal-title .ivu-icon{font-size:20px;color:#f90;margin-right:10px}.ivu-modal .modal-content{padding:10px 20px;font-size:14px}.we-center-modal{display:flex;align-items:center;justify-content:center}.we-center-modal .ivu-modal{top:50%;margin-top:-88px}.empty-text{position:relative;top:20px;left:20px}.save-as-modal .save-as-modal-name{width:270px}.save-as-modal .save-as-modal-path{width:300px;display:inline-block}.bg-page{width:360px;height:100%;margin:0 auto;display:flex;justify-content:center;flex-direction:column;align-items:center}.bg-page .bg-img{width:162px;height:145px;margin-bottom:20px}@media screen and (max-height:600px){.bg-page .bg-img{display:none}}.bg-page .bg-text{width:100%;text-align:left}.bg-page .bg-text.weight{margin-top:10px;font-weight:700}.bg-page .bg-text.indent{text-indent:2em}.we-result-view .ivu-table-body::-webkit-scrollbar{width:8px}.we-result-view .ivu-table-body::-webkit-scrollbar-thumb,.we-result-view .ivu-table-body::-webkit-scrollbar-track{box-shadow:inset 0 0 2px rgba(0,0,0,.2);-webkit-box-shadow:inset 0 0 2px rgba(0,0,0,.2);border-radius:8px;-webkit-border-radius:8px;-moz-border-radius:8px;-ms-border-radius:8px;-o-border-radius:8px}.we-result-view .ivu-table-body::-webkit-scrollbar-thumb,.we-result-view .ivu-table-body::-webkit-scrollbar-thumb:window-inactive{background:#2d8cf0}.not-allow-download .ivu-poptip-popper.we-poptip.v-transfer-dom{display:none}.version-content[data-v-350c8cf5]{max-height:500px;overflow-y:auto}
+
+/*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ *//*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */.entry[data-v-c3db49b8]{font-size:16px;height:120px;line-height:120px;background:#515a6e;margin:10px 30px 10px 10px;color:#fff;text-align:center;cursor:pointer}.entry:hover .icon-blod[data-v-c3db49b8],.entry[data-v-c3db49b8]:hover{font-weight:600}.no-data-bgc[data-v-c3db49b8]{width:100%;text-align:center;font-size:16px}.no-data-bgc .no-data-img[data-v-c3db49b8]{width:200px;margin-top:150px}.page-bgc[data-v-c3db49b8]{background-color:#fff;height:calc(100% - 32px)}
+
+/*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ *//*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ *//*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ *//*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}[hidden],template{display:none}ol,ul{list-style:none}/*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ *//*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */@font-face{font-family:font-dws-icon;src:url(../fonts/font-dws-icon.907d1903.eot);src:url(../fonts/font-dws-icon.907d1903.eot#iefix) format("embedded-opentype"),url(../fonts/font-dws-icon.5276efb4.ttf) format("truetype"),url(../fonts/font-dws-icon.17b69e7b.woff) format("woff"),url(../img/font-dws-icon.70985edd.svg#font-dws-icon) format("svg");font-weight:400;font-style:normal}[class*=" fi-"],[class^=fi-]{font-family:font-dws-icon!important;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.fi-export:before{content:"\E904"}.fi-download:before{content:"\E905"}.fi-quit:before{content:"\E906"}.fi-search:before{content:"\E907"}.fi-undo:before{content:"\E908"}.fi-redo:before{content:"\E909"}.fi-format:before{content:"\E90A"}.fi-play:before{content:"\E90B"}.fi-stop:before{content:"\E90C"}.fi-save:before{content:"\E90D"}.fi-disconnect:before{content:"\E90E"}.fi-warn:before{content:"\E90F"}.fi-expand-right:before{content:"\E910"}.fi-cross:before{content:"\E911"}.fi-tick:before{content:"\E912"}.fi-dir-fold:before{content:"\E913"}.fi-dir-unfold:before{content:"\E914"}.fi-more-things:before{content:"\E915"}.fi-radio-on2:before{content:"\E918"}.fi-ide:before{content:"\E91D"}.fi-hivedb.open:before{content:"\E91E"}.fi-hivedb:before{content:"\E91F"}.fi-disk-o:before{content:"\E920"}.fi-disk:before{content:"\E921"}.fi-project-o:before{content:"\E922"}.fi-project:before{content:"\E923"}.fi-caret-down:before{content:"\E924"}.fi-caret-right:before{content:"\E925"}.fi-folder:before{content:"\E926";padding:0 2px;font-size:14px}.fi-folder-o:before{content:"\E927";padding:0 2px;font-size:14px}.fi-file:before{content:"\E928";font-size:16px;color:grey}.fi-file-o:before{content:"\E929";font-size:16px;padding:0 2px}.fi-logo:before{content:"\E930"}.fi-table:before{content:"\E931"}.fi-table.open:before{content:"\E931";color:grey}.fi-field.open:before,.fi-field:before{content:"\E932";font-size:14px;color:grey}.fi-open-in:before{content:"\E92D"}.fi-dock-show:before{content:"\E92E"}.fi-dock-hide:before{content:"\E92F"}.fi-hive:before{content:"\E93A";color:#f4cf2a;font-size:16px}.fi-spark:before{content:"\E93B";color:#f90;font-size:16px}.fi-scala:before{content:"\E93C";color:#ed4014;font-size:16px}.fi-jdbc:before{content:"\E93D";font-size:16px}.fi-python:before{content:"\E93E";color:#3573a6;font-size:16px;font-weight:700}.fi-spark-python:before{color:#3573a6;content:"\E93F";font-size:18px}.fi-storage:before{content:"\E940";color:#4db091;font-size:12px}.fi-sas:before{content:"\E941";color:#58c6a2}.fi-r:before{content:"\E942";color:#2d8cf0;font-size:14px}.fi-txt:before{content:"\E943";color:grey;font-size:16px}.fi-log:before{content:"\E944";color:grey;font-size:16px}.fi-xls:before{content:"\E945";color:#36af47;font-size:16px}.fi-xlsx:before{content:"\E946";color:#36af47;font-size:16px}.fi-csv:before{content:"\E947";color:#36af47;font-size:16px}.fi-jar:before{content:"\E948";color:#e45f3d;font-size:16px}.fi-fx-method-o:before,.fi-fx-method:before{content:"\E94A"}.fi-fx-udf-o:before,.fi-fx-udf:before{content:"\E94B"}.fi-data-develop:before{content:"\E600";color:#4cbf4b}.fi-resource:before{content:"\E601";color:#3293e3}.fi-datalink-dxp:before{content:"\E606";color:#3293e3}.fi-data-exchange:before{content:"\E602"}.fi-algorithms:before{content:"\E603";color:#ff3d3d}.fi-workflow:before{content:"\E604"}.fi-bi:before{content:"\E605";color:#9654f5;font-size:14px}.fi-schedule:before{content:"\E903"}.fi-workflow1:before{content:"\E901"}.fi-exchange:before{content:"\E902"}.fi-application:before{content:"\E916"}.fi-newproject:before{content:"\E91A"}.fi-addproject:before{content:"\E919"}.fi-visualis:before{content:"\E91B"}.fi-qualitis:before{content:"\E91C"}.fi-scriptis:before{content:"\E92A"}.fi-system:before{content:"\E92B"}.ivu-icon-ios-refresh{padding:4px 3px}@-webkit-keyframes we-icon-loading-spin{0%{transform:rotate(0deg)}50%{transform:rotate(180deg)}to{transform:rotate(1turn)}}@keyframes we-icon-loading-spin{0%{transform:rotate(0deg)}50%{transform:rotate(180deg)}to{transform:rotate(1turn)}}.we-icon-loading{color:#3d3d3d;-webkit-animation:we-icon-loading-spin 1s linear infinite;animation:we-icon-loading-spin 1s linear infinite}*{-webkit-tap-highlight-color:rgba(0,0,0,0)}*,:after,:before{box-sizing:border-box}body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Helvetica Neue,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;font-variant-numeric:tabular-nums;font-size:12px;color:#515a6e;line-height:1.5}.layout{position:absolute;left:0;right:0;top:0;bottom:0;background-color:#fff}.layout-content{height:100%}.layout-body{width:100%;height:100%;padding:40px 0 0;position:relative}.ivu-message{z-index:2000!important}.we-editor .monaco-editor .margin{background-color:#f2f3f6}
+
+/*!
+ / Copyright 2019 WeBank
+ /
+ / Licensed under the Apache License, Version 2.0 (the "License");
+ /  you may not use this file except in compliance with the License.
+ / You may obtain a copy of the License at
+ /
+ / http://www.apache.org/licenses/LICENSE-2.0
+ /
+ / Unless required by applicable law or agreed to in writing, software
+ / distributed under the License is distributed on an "AS IS" BASIS,
+ / WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ / See the License for the specific language governing permissions and
+ / limitations under the License.
+ /
+ / *//*!
+ / Copyright 2019 WeBank
+ /
+ / Licensed under the Apache License, Version 2.0 (the "License");
+ /  you may not use this file except in compliance with the License.
+ / You may obtain a copy of the License at
+ /
+ / http://www.apache.org/licenses/LICENSE-2.0
+ /
+ / Unless required by applicable law or agreed to in writing, software
+ / distributed under the License is distributed on an "AS IS" BASIS,
+ / WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ / See the License for the specific language governing permissions and
+ / limitations under the License.
+ /
+ / */.ctx-menu-container{position:fixed;padding:0;cursor:pointer;border:1px solid #ebeef5;z-index:99999;color:#646465;font-size:12px;font-weight:500;background:#fff}.ctx-menu-container .ctx{position:relative;display:flex}.ctx-menu-container .ctx .second-menu{width:160px!important;background:#fff;position:absolute;right:-161px;top:0;border:1px solid #ebeef5;border-left:none;box-shadow:0 2px 12px 0 rgba(0,0,0,.1);border-radius:4px;padding-left:0}.ctx-menu-container .ctx .second-menu .ctx-item{background:#fff;width:160px;color:#3d3d3d;font-size:12px}.ctx-menu-container .ctx .ctx-menu{border:1px solid #ebeef5;background-color:#fff;position:absolute;left:0;list-style:none;min-width:178px;box-shadow:0 2px 8px #a8a8a8}.ctx-menu-container .ctx .ctx-menu .ctx-divider{height:1px!important;overflow:hidden;background-color:#e3e3e3;margin:5px 12px!important}.ctx-menu-container .ctx .ctx-menu .ctx-item{position:relative;display:flex;box-sizing:border-box;height:28px;line-height:28px;padding:0 12px;white-space:nowrap;justify-content:space-between;align-items:center}.ctx-menu-container .ctx .ctx-menu .ctx-item:focus,.ctx-menu-container .ctx .ctx-menu .ctx-item:hover{color:#b5b5b5;background-color:#eff1f6}.ctx-menu-container .ctx .ctx-menu .ctx-item.active:focus,.ctx-menu-container .ctx .ctx-menu .ctx-item.active:hover{color:#0a9fec}.ctx-menu-container .ctx .ctx-menu .ctx-item.disabled:focus,.ctx-menu-container .ctx .ctx-menu .ctx-item.disabled:hover{color:#818a91}
+
+/*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ *//*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */.we-editor{height:100%;width:100%}.we-editor a{color:#646465!important}.we-editor .glyphMarginClass{background:#f90}.we-editor .contentClass{background:rgba(250,216,164,.51)}.we-editor .inlineDecoration{position:relative;color:#f90!important;cursor:pointer;font-style:oblique}.we-editor .inlineDecoration:after{content:"";position:absolute;bottom:-2px;left:5%;width:90%;height:2px;background:-webkit-linear-gradient(315deg,transparent,transparent 45%,#ed4014,transparent 55%,transparent),-webkit-linear-gradient(45deg,transparent,transparent 45%,#ed4014,transparent 55%,transparent);background-size:4px 4px;background-repeat:repeat-x}.we-editor .highRiskGrammar{color:red}
+
+/*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */.fn-view{position:relative}.fn-view .fn-view-canvas{position:absolute;right:7px;bottom:0}.fn-view .fn-item{text-overflow:ellipsis;white-space:nowrap;width:380px;display:block;overflow-x:hidden}
+
+/*!
+ / Copyright 2019 WeBank
+ /
+ / Licensed under the Apache License, Version 2.0 (the "License");
+ /  you may not use this file except in compliance with the License.
+ / You may obtain a copy of the License at
+ /
+ / http://www.apache.org/licenses/LICENSE-2.0
+ /
+ / Unless required by applicable law or agreed to in writing, software
+ / distributed under the License is distributed on an "AS IS" BASIS,
+ / WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ / See the License for the specific language governing permissions and
+ / limitations under the License.
+ /
+ / *//*!
+ / Copyright 2019 WeBank
+ /
+ / Licensed under the Apache License, Version 2.0 (the "License");
+ /  you may not use this file except in compliance with the License.
+ / You may obtain a copy of the License at
+ /
+ / http://www.apache.org/licenses/LICENSE-2.0
+ /
+ / Unless required by applicable law or agreed to in writing, software
+ / distributed under the License is distributed on an "AS IS" BASIS,
+ / WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ / See the License for the specific language governing permissions and
+ / limitations under the License.
+ /
+ / */.we-tree{display:flex;flex-direction:column;cursor:pointer;text-overflow:ellipsis}.we-tree-node{background-color:transparent}.we-tree-node>.we-tree-node__content{color:#3d3d3d;outline:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;display:flex;flex-direction:row;cursor:pointer;font-size:12px;font-family:font-dws-icon!important;font-style:normal;font-weight:400;font-variant:normal;text-transform:none;line-height:1;position:relative}.we-tree-node>.we-tree-node__content span{display:flex;height:25px;line-height:25px;align-items:center}.we-tree-node>.we-tree-node__content .we-tree-node__expand-icon:before{content:"\E925"}.we-tree-node>.we-tree-node__content .we-tree-node__icon{margin-left:5px;width:10px;justify-content:center;align-items:center}.we-tree-node>.we-tree-node__content .we-tree-node__icon.is-leaf{padding-left:10px;width:24px}.we-tree-node>.we-tree-node__content .we-tree-node__icon.is-checkbox{padding-left:12px}.we-tree-node>.we-tree-node__content .we-tree-node__icon.is-checkbox:before{content:normal!important}.we-tree-node>.we-tree-node__content .we-tree-node__label{padding-left:10px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.we-tree-node>.we-tree-node__content .we-tree-node__folder .we-tree-node__view{width:25px;height:25px;background:#fff;float:right;position:absolute;top:0;right:0;font-size:14px;display:flex;align-items:center;justify-content:center}.we-tree-node>.we-tree-node__content .we-tree-node__folder .we-tree-node__view:hover{color:#0a9fec}.we-tree-node>.we-tree-node__content .we-tree-node__checkbox{display:flex;justify-content:flex-start;align-items:center;overflow:hidden}.we-tree-node>.we-tree-node__content .we-tree-node__checkbox span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.we-tree-node>.we-tree-node__content .we-tree-node__checkbox .expired{text-decoration:line-through}.we-tree-node>.we-tree-node__content .we-tree-node__checkbox .we-tree-node__view{width:25px;height:25px;background:#fff;float:right;position:absolute;top:0;right:0;font-size:14px;display:flex;align-items:center;justify-content:center}.we-tree-node>.we-tree-node__content .we-tree-node__checkbox .we-tree-node__view:hover{color:#0a9fec}.we-tree-node>.we-tree-node__content .we-tree-node__checkbox span{margin-left:10px}.we-tree-node>.we-tree-node__content .we-tree-node__edit{flex:1;position:relative;height:25px;line-height:25px;padding-left:10px}.we-tree-node>.we-tree-node__content .we-tree-node__edit input,.we-tree-node>.we-tree-node__content .we-tree-node__edit input:focus{width:96%;height:20px;border:1px solid #bbbec6;outline:none;box-sizing:border-box}.we-tree-node>.we-tree-node__content .we-tree-node__edit.is-error input:focus{border:1px solid #be1100;outline:none}.we-tree-node>.we-tree-node__content .we-tree-node__edit.is-error .we-tree-node__error{font-size:10px;line-height:18px;width:92%;box-sizing:border-box;display:block;position:absolute;top:23px;left:10px;padding:2px 5px;border:1px solid #be1100;background-color:#aa0505;color:#f5f5f5;z-index:999}.we-tree-node.is-expanded>.we-tree-node__content .we-tree-node__expand-icon:before{content:"\E924"}.we-tree-node.is-expanded>.we-tree-node__content .we-tree-node__icon:before{content:"\E927"}.we-tree-node.is-expanded>.we-tree-node__content .we-tree-node__icon.is-leaf:before{content:"\E929"}.we-tree-node.is-current>.we-tree-node__content{background-color:#eff1f6}.we-tree-node.is-actived>.we-tree-node__content{color:#0a9fec}
+
+/*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ *//*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */.we-panel{position:relative;width:100%;height:100%}.we-panel.we-panel-horizontal .we-panel-dash{cursor:ew-resize}.we-panel.we-panel-vertical .we-panel-dash{cursor:ns-resize}.we-panel-item{position:absolute;background:#fff}.we-panel-dash{position:absolute;background:transparent;z-index:1000}

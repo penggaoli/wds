@@ -1,0 +1,31 @@
+/*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ *//*!
+ * Copyright 2019 WeBank
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ *  you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */.login{right:0;bottom:0;background-color:#fff;display:flex;align-items:center;justify-content:flex-end}.login,.login .login-bg{position:absolute;left:0;top:0}.login .login-bg{width:70%;height:100%;background:url(../img/login_bg.c2568f21.png) no-repeat;background-position:100% 100%;background-size:cover}@media screen and (max-width:1300px){.login .login-bg{background:url(../img/login_bg_small.7510da3c.png) no-repeat;background-position:100% 100%;background-size:cover}}.login .login-main{width:380px;height:300px;background-color:#fff;margin-right:9.5%;padding:20px;border-radius:15px;box-shadow:0 0 15px 0 rgba(0,0,0,.2);z-index:8}.login .login-main .login-title{font-size:18px;font-weight:400px;display:block;text-align:center;color:#2db7f5;font-weight:600}.login .login-main input{border:none;height:44px;border-radius:22px;padding-left:15px;background-color:#f8f8f9;box-shadow:inset 0 0 0 500px #f8f8f9;color:#515a6e}.login .login-main button{height:45px;background-color:#2d8cf0;box-shadow:0 5px 10px 0 rgba(0,0,0,.2);border-color:#2d8cf0}.login .remember-user-name{margin:5px 0 0 10px}.login .ivu-form-item{margin-bottom:20px}
