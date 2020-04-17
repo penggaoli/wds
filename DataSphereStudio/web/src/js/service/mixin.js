@@ -143,7 +143,7 @@ export default {
         url = info.projectUrl
       } else {
         localStorage.removeItem('appJointProjectId')
-        url = info.homepageUrl
+        url = info.homepageUrl                              // 将url设置为homepageUrl
       }
 
       window.console.log(url, 'url')
@@ -151,7 +151,7 @@ export default {
       if (Object.keys(info).length === 0) {
         this.$Message.warning(this.$t('message.constants.warning.comingSoon'));
       } else {
-        if (!info.ifIframe) {                                       // 发送请求
+        if (!info.ifIframe) {                         // 发送请求,根据数据库表中的ifIframe字段值选择是否添加dss的页面头部
           this.$router.push({path: url, query});
         } else {
           this.$router.push({name: 'commonIframe', query: {

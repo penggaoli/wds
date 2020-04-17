@@ -35,11 +35,14 @@
         </div>
       </div>
       <div class="project-type-list">
+      
+
+        <!-- src/js/moudle/project/config.js中的各个图标，点击相应图标会将path作为参数调用goto()方法 -->
         <div
           class="project-type-list-item-wrap"
-          v-for="item in systemMap"
+          v-for="item in systemMap"                
           :key="item.name"
-          @click="goto(item.path)">
+          @click="goto(item.path)">            
           <i class="project-type-list-icon" :class="item.font"
             :style="{'color': item.color, 'font-size': item.iconSize || '30px'}"
             v-if="item.font"></i>

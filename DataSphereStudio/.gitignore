@@ -18,6 +18,7 @@ dss-server/target/
 eventchecker-appjoint/target/
 plugins/azkaban/linkis-jobtype/target/
 plugins/linkis/linkis-appjoint-entrance/target/
+dss-dxp-appjoint/target
 
 sendemail-appjoint/sendemail-core/target/
 visualis-appjoint/appjoint/target/

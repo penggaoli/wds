@@ -77,7 +77,7 @@
                 </executions>
                 <configuration>
                     <skipAssembly>false</skipAssembly>
-                    <finalName>dss-qualitis-appjoint</finalName>
+                    <finalName>dss-dxp-appjoint</finalName>
                     <appendAssemblyId>false</appendAssemblyId>
                     <attach>false</attach>
                     <descriptors>
